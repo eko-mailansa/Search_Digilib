@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <h:form>  
+            <p:growl id="messages"/>
+
+            <p:menubar style="width: 1265px">
+                <p:submenu label="File" icon="ui-icon-document">
+                        <p:menuitem value="Ontology Searching" url="http://localhost:8000/Tesis_Digilib_Semantic_Web_Ontology_LSI/faces/Home_SearchArticle_Simple.xhtml" icon="ui-icon-search" />
+
+                    <p:submenu label="LSI" icon="ui-icon-contact">
+                        <p:menuitem value="Ontology Searching" url="http://localhost:8000/Tesis_Digilib_Semantic_Web_Ontology_LSI/faces/Home_SearchArticle_Lsi.xhtml" icon="ui-icon-search" />
+                        <p:menuitem value="Document" url="http://localhost:8000/Tesis_Digilib_Semantic_Web_Ontology_LSI/faces/Home_LsiDocument.xhtml" icon="ui-icon-extlink" />
+                        <p:menuitem value="Term" url="http://localhost:8000/Tesis_Digilib_Semantic_Web_Ontology_LSI/faces/Home_LsiTerm.xhtml" icon="ui-icon-extlink" />
+                    </p:submenu>
+                    <p:separator />
+                    <p:menuitem value="Quit" url="http://localhost:8000/Tesis_Digilib_Semantic_Web_Ontology_LSI/faces/index.xhtml" icon="ui-icon-extlink" />
+                </p:submenu>
+
+                <f:facet name="options">
+                    <p:commandButton type="button" value="Logout" action="index.html" icon="ui-icon-extlink" />
+                </f:facet>
+            </p:menubar>
+        </h:form>
+    </h:body>
+</html>
+

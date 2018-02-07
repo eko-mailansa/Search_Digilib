@@ -1,0 +1,152 @@
+@prefix map: <#> .
+@prefix db: <> .
+@prefix vocab: <vocab/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix jdbc: <http://d2rq.org/terms/jdbc/> .
+
+map:database a d2rq:Database;
+	d2rq:jdbcDriver "com.mysql.jdbc.Driver";
+	d2rq:jdbcDSN "jdbc:mysql://localhost/Search_Digilib_Semantic_Web";
+	d2rq:username "root";
+	jdbc:autoReconnect "true";
+	jdbc:zeroDateTimeBehavior "convertToNull";
+	.
+
+# Table article
+map:article a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "article/@@article.title|urlify@@";
+	d2rq:class vocab:article;
+	d2rq:classDefinitionLabel "article";
+	.
+map:article__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:article;
+	d2rq:property rdfs:label;
+	d2rq:pattern "article #@@article.title@@";
+	.
+map:article_descriptionOrabstract a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:article;
+	d2rq:property vocab:article_descriptionOrabstract;
+	d2rq:propertyDefinitionLabel "article descriptionOrabstract";
+	d2rq:column "article.descriptionOrabstract";
+	.
+map:article_title__ref a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:article;
+	d2rq:property vocab:article_title;
+	d2rq:refersToClassMap map:library;
+	d2rq:join "article.title => library.title";
+	.
+
+# Table author
+map:author a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "author/@@author.author_name|urlify@@";
+	d2rq:class vocab:author;
+	d2rq:classDefinitionLabel "author";
+	.
+map:author__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:author;
+	d2rq:property rdfs:label;
+	d2rq:pattern "author #@@author.author_name@@";
+	.
+map:author_author_name a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:author;
+	d2rq:property vocab:author_author_name;
+	d2rq:propertyDefinitionLabel "author author_name";
+	d2rq:column "author.author_name";
+	.
+map:author_job_description a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:author;
+	d2rq:property vocab:author_job_description;
+	d2rq:propertyDefinitionLabel "author job_description";
+	d2rq:column "author.job_description";
+	.
+map:author_email a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:author;
+	d2rq:property vocab:author_email;
+	d2rq:propertyDefinitionLabel "author email";
+	d2rq:column "author.email";
+	.
+
+# Table library
+map:library a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "library/@@library.isbn|urlify@@";
+	d2rq:class vocab:library;
+	d2rq:classDefinitionLabel "library";
+	.
+map:library__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:library;
+	d2rq:property rdfs:label;
+	d2rq:pattern "library #@@library.isbn@@";
+	.
+map:library_isbn a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:library;
+	d2rq:property vocab:library_isbn;
+	d2rq:propertyDefinitionLabel "library isbn";
+	d2rq:column "library.isbn";
+	.
+map:library_title a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:library;
+	d2rq:property vocab:library_title;
+	d2rq:propertyDefinitionLabel "library title";
+	d2rq:column "library.title";
+	.
+map:library_descriptionOrabstract a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:library;
+	d2rq:property vocab:library_descriptionOrabstract;
+	d2rq:propertyDefinitionLabel "library descriptionOrabstract";
+	d2rq:column "library.descriptionOrabstract";
+	.
+map:library_publisher a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:library;
+	d2rq:property vocab:library_publisher;
+	d2rq:propertyDefinitionLabel "library publisher";
+	d2rq:column "library.publisher";
+	.
+map:library_pages a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:library;
+	d2rq:property vocab:library_pages;
+	d2rq:propertyDefinitionLabel "library pages";
+	d2rq:column "library.pages";
+	.
+map:library_published a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:library;
+	d2rq:property vocab:library_published;
+	d2rq:propertyDefinitionLabel "library published";
+	d2rq:column "library.published";
+	.
+map:library_language a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:library;
+	d2rq:property vocab:library_language;
+	d2rq:propertyDefinitionLabel "library language";
+	d2rq:column "library.language";
+	.
+map:library_format a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:library;
+	d2rq:property vocab:library_format;
+	d2rq:propertyDefinitionLabel "library format";
+	d2rq:column "library.format";
+	.
+map:library_type a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:library;
+	d2rq:property vocab:library_type;
+	d2rq:propertyDefinitionLabel "library type";
+	d2rq:column "library.type";
+	.
+map:library_capacity a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:library;
+	d2rq:property vocab:library_capacity;
+	d2rq:propertyDefinitionLabel "library capacity";
+	d2rq:column "library.capacity";
+	.
+map:library_author__ref a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:library;
+	d2rq:property vocab:library_author;
+	d2rq:refersToClassMap map:author;
+	d2rq:join "library.author => author.author_name";
+	.
+

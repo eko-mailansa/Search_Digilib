@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+    <h:head>        
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" http-equiv="X-UA-Conpatible" />
+        <h:outputStylesheet library="css" name="bootstrap.min.css" />     
+        <h:outputStylesheet library="css" name="css_spasi.css" />
+        <title>Result</title>
+        <style type="text/css">
+            .tableUpdated {
+                width: 100% !important;
+                margin: 0 0 0 !important;
+            }
+            .btnSpace {
+                margin: 0px;
+            }     
+        </style>
+
+    </h:head>
+    <h:body>
+        <!--<center>-->
+            <!--        <br/>
+                    <h:link outcome="/Home_SearchArticle_Simple" value="Back To Search"/>        
+                    <br/><br/>-->
+            <f:view>  
+
+                <!--<b>Result From ""</b>-->
+                <br/><br/>
+                <h:form id="SearcharticleRDFForm" style="align-content:center; width: 1200px">
+                    <p:dataTable id="articleRDFTable" binding="#{table}" value="#{articleRDFManagedBean.getArticleRDFShow()}" var="itemSearch" paginator="true" rows="5"
+                                 paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+                                 rowsPerPageTemplate="10,20,30,40,50" widgetVar="500" style="width: 1200px; font-size:10px" >
+
+                        <p:column style="width:40%">
+                            <f:facet name="header"><center>JUDUL ARTICLE</center></f:facet>
+                            <h:outputLink value="Home_AllClass_Result.xhtml" rendered="#{itemSearch.title.URIResource}">
+                                <f:param name="query" value="#{itemSearch.title}" />
+                                <h:outputText style="font-size: small" value="#{itemSearch.title}"/>
+                            </h:outputLink>
+                        </p:column>
+
+                    </p:dataTable>
+                </h:form>
+
+            </f:view>
+            <br/><br/>
+        <!--</center>-->
+    </h:body>
+</html>
+

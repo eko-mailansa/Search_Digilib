@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <!--<link href="include/css/stylesheet.css" rel="stylesheet" type="text/css" />-->
+    </h:head>
+    <h:body>  
+        <div id="messages-container">
+            <div id="messages">
+                <ui:insert name="messages"> 
+                    <h:form>
+                        <p:growl id="messages" showDetail="true" />
+                        &nbsp;&nbsp;&nbsp;
+                        <p:menuButton value="File">
+                            <p:menuitem value="Dosen" url="http://localhost:8080/aka/faces/homeDosen.xhtml" icon="ui-icon-extlink"/>
+                            <p:menuitem value="Mahasiswa" url="http://localhost:8080/fix/faces/homeMhs.xhtml" icon="ui-icon-extlink"/>
+                            <p:menuitem value="Ka_Prodi" url="" icon="ui-icon-extlink"/>
+                            <p:menuitem value="Wakil_Rektor" url="" icon="ui-icon-extlink"/>
+                            <p:separator style="width:215px;height:10px" />
+                            <p:menuitem value="Logout" url="http://localhost:8080/fix/faces/index.xhtml" icon="ui-icon-extlink"/>
+                        </p:menuButton>
+                    </h:form>                   
+                </ui:insert>
+            </div> 
+        </div>
+    </h:body>
+</html>

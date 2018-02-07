@@ -1,0 +1,1640 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:map="http://localhost:2020/#"
+    xmlns:vocab="http://localhost:2020/vocab/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:db="http://localhost:2020/"
+  xml:base="http://localhost:2020/" > 
+  <rdf:Description rdf:about="library/1234567891051">
+    <vocab:library_author rdf:resource="author/David_Hughes"/>
+    <vocab:library_capacity>2.73 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>528</vocab:library_pages>
+    <vocab:library_title>Fundamentals of Computer Science Using Java</vocab:library_title>
+    <rdfs:label>library #1234567891051</rdfs:label>
+    <vocab:library_isbn>1234567891051</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>In the summer of 1996, our Computer Science department made the decision to use&#xD;
+Java as the core language for our Computer Science program, beginning that fall.&#xD;
+Although there were many Java books available, we soon discovered that most were&#xD;
+“trade” or “hobby” books, not designed for university courses and certainly not intended to serve as introductions to Computer Science. It became clear to us that someone needed to write a “Fundamentals of Computer Science Using Java” book, and I thought, “why not me?” And now, after years of researching, testing, and writing, I can provide the book that we searched for years ago: a truly Java-based introduction to Computer Science.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Jones and Bartlett Publishers</vocab:library_publisher>
+    <vocab:library_published>2002</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1264567891011">
+    <vocab:library_author rdf:resource="author/Reza_Shojanoori%2C_Radmila_Juric%2C_Mahi_Lohi%2C_Gabor_Terstyanszky_"/>
+    <vocab:library_capacity>273 KB</vocab:library_capacity>
+    <vocab:library_type>Eproceeding</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>10</vocab:library_pages>
+    <vocab:library_title>ASeCS: Assistive Self-Care Software Architectures for Delivering Service in Care Homes</vocab:library_title>
+    <rdfs:label>library #1264567891011</rdfs:label>
+    <vocab:library_isbn>1264567891011</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>We propose a layered and component based software architecture, which generates semantic software applications, for the purpose of delivering personalized services for residents in Self-Care Homes (SeCH). The architectural core layers &#xD;
+accommodate software components which grasp and understand the semantic of various situations we may encounter in SeCH, through a variety of cyber-&#xD;
+physical objects which co-exist in pervasive environments used in monitoring SeCH residents. The decision making on appropriate actions in SeCH is based on reasoning created by  SWRL enabled OWL ontologies to ensure that in any situation, residents are delivered suitable and personalized healthcare &#xD;
+services. The ASeCS architecture has been deployed through component based Java technologies, and uses OWL-API in order to seamlessly incorporate reasoning into software applications. ASeCS is SeCH specific, but provides a window of opportunities for creating modern and flexible software solutions for pervasive healthcare, where decision making solely depends on OWL/SWRL enabled computations. </vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Hawaii International Conference on System Science</vocab:library_publisher>
+    <vocab:library_published>2014</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Chris_Haseman_">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Chris Haseman </vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Chris Haseman </rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="vocab/library_type">
+    <rdfs:label>library type</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1234567111061">
+    <vocab:library_author rdf:resource="author/Vishal_Layka_And_Boris_Minkin"/>
+    <vocab:library_capacity>17.2 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>461</vocab:library_pages>
+    <vocab:library_title>Learn Java For Web Development</vocab:library_title>
+    <rdfs:label>library #1234567111061</rdfs:label>
+    <vocab:library_isbn>1234567111061</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>This book is for a large cross section of modern Java web developers, with various levels of experience. &#xD;
+Learning the Java programming language is a noble cause, but learning merely the Java language is not enough in the real world. Java developers have to learn Java EE, a collection of related server-side technologies, to put their Java skills to any real use. &#xD;
+But learning Java EE is not enough either. The Java language along with Java EE may suffice to develop web applications for projects in the same organization, as a means to reusability, but the diverse landscape of Java on the Web is permeated with several web frameworks, such as Spring Web MVC, that make development much easier; thus, a Java web developer has to have the knowledge of these web frameworks. </vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Apress</vocab:library_publisher>
+    <vocab:library_published>2014</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1294567891011">
+    <vocab:library_author rdf:resource="author/Radmila_Juric%2C_Jasna_Kuljis_And_Patricia_Oberndorf_"/>
+    <vocab:library_capacity>89.1 KB</vocab:library_capacity>
+    <vocab:library_type>Eproceeding</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>1</vocab:library_pages>
+    <vocab:library_title>Introduction to IT Architectures and Applications in Healthcare Environments Minitrack</vocab:library_title>
+    <rdfs:label>library #1294567891011</rdfs:label>
+    <vocab:library_isbn>1294567891011</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>This year the “IT Architectures and Applications in Healthcare Environments” minitrack has accepted a total of eleven papers, which are diverse and very &#xD;
+indicative of technological impact on modern healthcare software applications. &#xD;
+The paper “A Business Process Management Approach to Perioperatve Supplies/Instrument Inventory and Workflow” is based on a 10 year longitudinal study of a large teaching US hospital, which identifies quality and quantity business analytics used to improve perioperative efficiency and effectiveness across patient quality of care.  &#xD;
+Another study, conducted in Austria, and presented in the paper entitled “Factors of Access Control Management in Electronic Healthcare: The Patients’ &#xD;
+Perspectives” has revealed that patients have varying conceptions regarding privacy and the librarys advocate the integration of access control factors to &#xD;
+satisfy individual information requirements. The paper on “Decision Support in Evaluating the Impact of Mental Disorders on Work Ability” is from Finland and illustrates a systematic process workflow and clinical decision support system, implemented in South Karelia district, which standardized the work ability evaluation process in the field of mental health. </vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Hawaii International Conference on System Science</vocab:library_publisher>
+    <vocab:library_published>2014</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Sandeep_Kumar">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Sandeep Kumar</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Sandeep Kumar</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1236967891011">
+    <vocab:library_author rdf:resource="author/John_Hebeler%2C_Matthew_Fisher%2C_Ryan_Blace_And_Andrew_Perez-Lopez"/>
+    <vocab:library_capacity>12.9 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>651</vocab:library_pages>
+    <vocab:library_title>Semantic Web Programming</vocab:library_title>
+    <rdfs:label>library #1236967891011</rdfs:label>
+    <vocab:library_isbn>1236967891011</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>Semantic Web Programming takes the Semantic Web directly and boldly into solving practical, real-world problems that ?exibly deliver real value from our growing ability to access information and services from our laptop to the enterprise to the World Wide Web. The chapters form a solid, code-based path addressing information and service challenges. As the code examples build, we pragmatically explore themany technologies that formthe Semantic Web, including the knowledge representations such asmicroformats, Resource Description Framework (RDF), RDF Schema (RDFS), the Web Ontology Language (OWL) including its latest release OWL 2 and Semantic Web Rule Language (SWRL), Semantic Web programming frameworks such as Jena, and useful Semantic Web tools. We explore these technologies, not as ends in&#xD;
+themselves but rather for their role and merits in solving real problems. Thus,&#xD;
+your learning is based on results—the results that each technology brings to&#xD;
+address your application challenges.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Wiley Publishing, Inc.</vocab:library_publisher>
+    <vocab:library_published>2009</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Martin_Hepp%2C_Pieter_De_Leenheer%2C_Aldo_de_Moor_And_York_Sure_">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Martin Hepp, Pieter De Leenheer, Aldo de Moor And York Sure </vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Martin Hepp, Pieter De Leenheer, Aldo de Moor And York Sure </rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Sarra_Roubi%2C_Mohammed_Erramdani_And_Samir_Mbarki_">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Sarra Roubi, Mohammed Erramdani And Samir Mbarki </vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Sarra Roubi, Mohammed Erramdani And Samir Mbarki </rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="vocab/library_pages">
+    <rdfs:label>library pages</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/An_Ontology-based_Information_Extraction_%28OBIE%29_Framework_for_Analyzing_Initial_Public_Offering_%28IPO%29_Prospectus">
+    <vocab:article_title rdf:resource="library/1254567891011"/>
+    <vocab:article_descriptionOrabstract>With the large amounts of information associated with the Initial Public Offering (IPO) process, an intelligent tool is needed for assisting the decision making activities for both the investors and the underwriters. Even though a large body of related studies exists in extant literature, minimum attention has been devoted  to  the aspect of understanding hidden semantics within the informative contents of IPO prospectus. In this paper, we present a framework for processing the textual content of IPO prospectus based on an emerging technique named Ontology Based Information Extraction (OBIE). Preliminary results indicates that the framework is capable of meeting the design requirements  identified. Moreover, &#xD;
+lessons learned during the design and implementation span technical and organizational considerations and can serve as guidance  for  future research and &#xD;
+development in related areas. </vocab:article_descriptionOrabstract>
+    <rdfs:label>article #An Ontology-based Information Extraction (OBIE) Framework for Analyzing Initial Public Offering (IPO) Prospectus</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Leslie_F._Sikos%2C_Ph.D.">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Leslie F. Sikos, Ph.D.</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Leslie F. Sikos, Ph.D.</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Towards_a_Semantic_Book_Search_Engine">
+    <vocab:article_title rdf:resource="library/9781509055869"/>
+    <vocab:article_descriptionOrabstract>Traditional Information Retrieval (IR) methods were initially used for searching and ranking webpages on the Web. These methods were progressively modified to exploit the peculiarities of the Web including the use of the hyperlinked &#xD;
+structure of the Web for relevance ranking. These Web IR techniques, however, are also being applied for searching and ranking to other forms of text collections which are not inherently web documents. Books (especially in PDF form) are by nature different from web pages because they lack an explicit &#xD;
+hypertextual structure and therefore cannot be accurately and precisely searched and ranked using traditional approaches.&#xD;
+Books contain a highly structured content with implicit logical connections among different parts of the same book as well as to related content in other books. These book structural semantics and logical connections could be discovered and used to establish a web of books where the logical concepts, images, figures, tables, and other parts are linked with each other thus resulting in a semantic graph, which could then be exploited by a semantic &#xD;
+book search engine for more precise and accurate indexing, searching, ranking and recommendations. Based on this hypothesis, the paper outlines a high-level architecture for one of the possible implementations of a semantic book search engine, identifies all the potential areas of research for future researchers, and reports on our work in progress in the form of the proposed model for the purpose. The proposed architecture, if implemented in its true sense, has the potential to better serve the needs of all the stakeholders including authors, publishers, readers, and librarians. </vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Towards a Semantic Book Search Engine</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/X86_Assembly_Language_and_C_Fundamentals">
+    <vocab:article_title rdf:resource="library/1234567891091"/>
+    <vocab:article_descriptionOrabstract>Although assembly language is not as prevalent as a high-level language, such as C or an object-oriented language like C++, it is the predominant language used in embedded microprocessors. A course in a high-level language, such as C, usually precedes a course in assembly language.&#xD;
+Assembly language programming requires a knowledge of number representations, such as fixed-point, decimal, and floating-point; also digital logic, registers, and stacks. In order to thoroughly understand assembly language, it is necessary to be familiar with the architecture of the computer on which the language is being used. For the X86 assembly language, this implies the Intel and Intel-like microprocessors. Programs written in assembly language are usually faster and more compact than programs written in a high-level language and provide greater control over the program application. Assembly language is machine dependent; that is, it is used only with a specific type of processor. A high-level language, however, is usually machine independent; that is, it can be used with any processor.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #X86 Assembly Language and C Fundamentals</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Mark_Roantree%2C_Jim_O%E2%80%99_Donoghue%2C_Noel_O%E2%80%99Kelly_And_Martin_van_Boxtel%2C_Sebastian_K%C3%B6hler">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Mark Roantree, Jim O’ Donoghue, Noel O’Kelly And Martin van Boxtel, Sebastian Köhler</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Mark Roantree, Jim O’ Donoghue, Noel O’Kelly And Martin van Boxtel, Sebastian Köhler</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Robert_M._Colomb">
+    <vocab:author_job_description>2007</vocab:author_job_description>
+    <vocab:author_author_name>Robert M. Colomb</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Robert M. Colomb</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/James_Rumbaugh%2C_Ivar_Jacobson_And_Grady_Booch">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>James Rumbaugh, Ivar Jacobson And Grady Booch</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #James Rumbaugh, Ivar Jacobson And Grady Booch</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1233127891011">
+    <vocab:library_author rdf:resource="author/Sarra_Roubi%2C_Mohammed_Erramdani_And_Samir_Mbarki_"/>
+    <vocab:library_capacity>791 KB</vocab:library_capacity>
+    <vocab:library_type>Ejournal</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>6</vocab:library_pages>
+    <vocab:library_title>Modeling and Generating Graphical User Interface for MVC Rich Internet Application using a Model Driven Approach</vocab:library_title>
+    <rdfs:label>library #1233127891011</rdfs:label>
+    <vocab:library_isbn>1233127891011</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>Rich Internet Applications (RIA) have been proposed as a response to growing user needs. Indeed, they have combined the richness and interactivity of desktop interfaces into the web distribution model. However, RIAs are complex applications and their development requires designing and implementation which can be time-consuming and the available tools are specialized in manual design. Besides, the design of a usable Graphical User Interface (GUI) with the layout respecting the user’s wishes remains a challenge. In this paper, we present a model driven development process to generate RIAs, focusing on the graphical interface, based on simplifying the task for the designer and not necessary be aware of the implementation specification.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>IEEE</vocab:library_publisher>
+    <vocab:library_published>2016</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1234567891541">
+    <vocab:library_author rdf:resource="author/Liyang_Yu"/>
+    <vocab:library_capacity>11.0 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>368</vocab:library_pages>
+    <vocab:library_title>Introduction to the Semantic Web and Semantic Web Services</vocab:library_title>
+    <rdfs:label>library #1234567891541</rdfs:label>
+    <vocab:library_isbn>1234567891541</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>The basic idea of the Semantic Web is to extend the current Web by adding semantics into Web documents. The added semantics is expressed as structured information that can be read and understood by machines. Once this is occomplished, each Web page will contain not only information to instruct machines about how to display it, but also structured data to help machines to understand it.&#xD;
+This exciting vision opens up the possibilities for many new applications on the&#xD;
+Web, especially those based on automatic soft agents. There have been many encouraging results in both the academic and application worlds during the past several years, and a whole suite of components, standards, and tools have been built and developed around the concept of the Semantic Web.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Chapman &amp; Hall/CRC Taylor &amp; Francis Group</vocab:library_publisher>
+    <vocab:library_published>2007</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/John_Crisp">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>John Crisp</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #John Crisp</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/2089-9815_">
+    <vocab:library_author rdf:resource="author/Lasmedi_Afuan_%2C_Azhari"/>
+    <vocab:library_capacity>295 KB</vocab:library_capacity>
+    <vocab:library_type>Eproceeding</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>Indonesia</vocab:library_language>
+    <vocab:library_pages>5</vocab:library_pages>
+    <vocab:library_title>PENERAPAN SEMANTIK WEB PADA ONTOLOGI LEARNING RESOURCE REPOSITORI</vocab:library_title>
+    <rdfs:label>library #2089-9815 </rdfs:label>
+    <vocab:library_isbn>2089-9815 </vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>Penelitian ini bertujuan untuk menerapkan web semantik pada domain learning resource. Penerapan web semantik dengan mamanfaatkan RAP library yang merupakan RDF Api, SPARQL sebagai query untuk mengakses RDF, serta PHP sebagai bahasa server side scripting. Tahapan yang dilakukan dalam penelitian ini antara lain analisis kebutuhan sistem, pengumpulan data, perancangan, pengkodean, pengujian. Hasil dari penelitian ini berupa web semantik yang membantu dalam perncarian learning resource. </vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Seminar Nasional Teknologi Informasi dan Komunikasi</vocab:library_publisher>
+    <vocab:library_published>2016</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/W._BRUCE_CROFT%2C_DONALD_METZLER%2C_TREVOR_STROHMAN">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>W. BRUCE CROFT, DONALD METZLER, TREVOR STROHMAN</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #W. BRUCE CROFT, DONALD METZLER, TREVOR STROHMAN</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1234567891311">
+    <vocab:library_author rdf:resource="author/W._BRUCE_CROFT%2C_DONALD_METZLER%2C_TREVOR_STROHMAN"/>
+    <vocab:library_capacity>26.7 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>547</vocab:library_pages>
+    <vocab:library_title>Search Engines Information Retrieval in Practice</vocab:library_title>
+    <rdfs:label>library #1234567891311</rdfs:label>
+    <vocab:library_isbn>1234567891311</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>This book provides an overview of the important issues in information retrieval,&#xD;
+and how those issues affect the design and implementation of search engines. Not&#xD;
+every topic is covered at the same level of detail. We focus instead on what we&#xD;
+consider to be the most important alternatives to implementing search engine&#xD;
+components and the information retrieval models underlying them. Web search&#xD;
+engines are obviously a major topic, and we base our coverage primarily on the&#xD;
+technology we all use on the Web,  but search engines are also used in many other applications. That is the reason for the strong emphasis on the information retrieval theories and concepts that underlie all search engines.&#xD;
+The target audience for the book is primarily undergraduates in computer science or computer engineering, but graduate students should also find this useful.&#xD;
+We also consider the book to be suitable for most students in information science programs. Finally, practicing search engineers should benefit from the book, whatever their background. There is mathematics in the book, but nothing too esoteric. There are also code and programming exercises in the book, but nothing beyond the capabilities of someone who has taken some basic computer science and programming classes.&#xD;
+The exercises at the end of each chapter make extensive use of a Java™-based&#xD;
+open source search engine called Galago. Galago was designed both for this book&#xD;
+and to incorporate lessons learned from experience with the Lemur and Indri&#xD;
+projects. In other words, this is a fully functional search engine that can be used to support real applications. Many of the programming exercises require the use, modification, and extension of Galago components.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Addison Wesley</vocab:library_publisher>
+    <vocab:library_published>2010</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1234567891444">
+    <vocab:library_author rdf:resource="author/Jos_de_Bruijn_%C2%B7_Dieter_Fensel%2C__Mick_Kerrigan_Uwe_Keller_And_Holger_Lausen_%C2%B7_James_Scicluna"/>
+    <vocab:library_capacity>4.59 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>196</vocab:library_pages>
+    <vocab:library_title>Modeling Semantic Web Services</vocab:library_title>
+    <rdfs:label>library #1234567891444</rdfs:label>
+    <vocab:library_isbn>1234567891444</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>Semantic Web services promise to automate tasks such as discovery, mediation, selection, composition, and invocation of services, enabling fully flexible&#xD;
+automated e-business. The description of Web services plays an important&#xD;
+role in the realization of his vision. The Web Service Modeling Ontology (WSMO) identifies the conceptual elements that are required for such descriptions, thereby providing the means for Web service description from a user point of view. However, the automation of Web service-related tasks requires a suitable concrete formal language. The formal description of Web services, as well as user goals, has three major aspects: static background knowledge in the form of ontologies, the functional description of the service (suitable for discovery and high-level composition), and the behavioral description of the service (suitable for selection, mediation, composition, and invocation). In this book we present a language framework addressing all three aspects. To address the problem of ontology description we present a language framework incorporating the Description Logic and Logic Programming formal language paradigms and the RDF Schema and OWL SemanticWeb ontology languages.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Springer-Verlag Berlin Heidelberg</vocab:library_publisher>
+    <vocab:library_published>2008</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Semantic_Web_for_Business%3A_Cases_and_Applications">
+    <vocab:article_title rdf:resource="library/1233337891011"/>
+    <vocab:article_descriptionOrabstract>The Semantic Web is what the World Wide Web was initially intended to be by its inventor, Tim Berners-Lee:&#xD;
+"The first step is putting data on the Web in a form that machines can naturally understand, or converting it to that form. This creates what I call a Semantic Web, a Web of data that can be processed directly or indirectly by machines. (Berners-Lee, 2000)".&#xD;
+However, due to the Web deployment challenges, this very ambitious vision was simplified in order to facilitate its take-off. Then, why this vision is being retaken now? And why is this important for ebusiness?&#xD;
+The Semantic Web is not just for the World Wide Web. It represents a set of technologies that work equally well on internal corporate intranets because it tries to solve several key problems in current information technology architectures.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Semantic Web for Business: Cases and Applications</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Facelets_Essentials%3A_Guide_to_JavaServer%E2%84%A2_Faces_View_Definition_Framework">
+    <vocab:article_title rdf:resource="library/1234567891017"/>
+    <vocab:article_descriptionOrabstract>Facelets is a templating language developed from the ground up with JavaServer™ Faces (JSF™) in mind. Because Facelets has come about as a result of many of the concerns with JavaServer™ Pages (JSP™) API when building JSF views, it steps outside of the JSP specification and provides a highly performant, JSF-centric view technology. Its top properties are templating, code reuse, and ease of development.&#xD;
+Focusing on these priorities allows Facelets to help make JSF suitable for &#xD;
+large-scale projects. For example, one of the first things a Facelets developer finds is that the technology immediately leads to a reduction in user interface (UI) code. Take our advice: use Facelets in your applications instead of JSP. In this book, we will show you how to maximize your JSF productivity with Facelets by leveraging it the right contexts. </vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Facelets Essentials: Guide to JavaServer™ Faces View Definition Framework</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Ontology_Management_Semantic_Web%2C_Semantic_Web_Services_And_Business_Applications">
+    <vocab:article_title rdf:resource="library/1234567891055"/>
+    <vocab:article_descriptionOrabstract>About fifteen years ago, the word “ontologies” started to gain popularity &#xD;
+in computer science research. The term was initially borrowed from creating the abstractions needed when using computers for real-world problems. It was novel in at least three senses: First, taking well-studied philosophical distinctions as the foundation for defining conceptual elements; this helps create more lasting data and object models and eases interoperability. Second, using  formal semantics for an approximate description of what a conceptual element’s intended meaning is. This helps avoid unintended interpretations and, consequently, unintended usages of a conceptual element. It also allows using a computer for reasoning about implicit facts. And, last but not least, this improves the interoperability of data and services alike. Third, ontologies are meant to be  consensual abstractions of a relevant field of interest, i.e., they are shared and accepted by a large audience. Even though the extreme stage of consensus in the form of a “true” representation of the domain is impossible to reach, a key goal is a widely accepted model of reality; accepted by many people, applicable for many tasks, and manifested in many different software systems.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Ontology Management Semantic Web, Semantic Web Services And Business Applications</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/M._Brian_Blake%2C_Liliana_Cabral%2C_Birgitta_Konig-Ries%2C_Ulrich_Kuster%2C_David_Martin">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>M. Brian Blake, Liliana Cabral, Birgitta Konig-Ries, Ulrich Kuster, David Martin</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #M. Brian Blake, Liliana Cabral, Birgitta Konig-Ries, Ulrich Kuster, David Martin</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Semantic_Web%3A_Concepts%2C_Technologies_and_Applications">
+    <vocab:article_title rdf:resource="library/1232227891011"/>
+    <vocab:article_descriptionOrabstract>As the volume of Web resources grows exponentially, researchers from industry, &#xD;
+government, and academia are now exploring the possibility of creating a Semantic &#xD;
+Web in which meaning is made explicit, allowing machines to process and integrate &#xD;
+Web resources intelligently. How will this Web of the future be effectively built? No one really knows. Although guesses vary from library to library, some themes are recurrent, most of which are covered in this book. In general, emerging technologies will allow semantics to be added  to existing Web resources,  so as to make the Semantic Web vision come true.  &#xD;
+This book provides a succinct account of this new Web, its principles, concepts, &#xD;
+and related tools. Its main contribution lies in the ability to demonstrate how Semantic Web technologies may be integrated and realized in several application domains.  </vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Semantic Web: Concepts, Technologies and Applications</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1232627891011">
+    <vocab:library_author rdf:resource="author/Shohag_Barman%2C_Fahmid_Al_Farid%2C_Nasir_Uddin_And_Hanif_Seddiqui_"/>
+    <vocab:library_capacity>394 KB</vocab:library_capacity>
+    <vocab:library_type>Ejournal</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>6</vocab:library_pages>
+    <vocab:library_title>A Semantic Knowledgebase Representation of  Geospatial Data in the Context of Bangladesh</vocab:library_title>
+    <rdfs:label>library #1232627891011</rdfs:label>
+    <vocab:library_isbn>1232627891011</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>There are a large amount of geospatial data available. A number of methods are also proposed for processing and retrieving geospatial information. However, end users ability to retrieve and link geospatial data is limited. Semantic knowledgebase of geospatial data provides information about places in the world and spatial relations between them. In this paper, we use semantic knowledgebase of geospatial data for retrieving user’s information efficiently in the context of Bangladesh. In our experiment, we mainly collect a lot of geospatial data from Bangladesh government website http://www.bangladesh.gov.bd and other sources. We exploit our geospatial data in a structured way by XML parsing on java platform. Our proposed method generates N-triples from the data of XML parsing. We use Protégé environment to build ontology. Ontology contained information about hierarchical data of Bangladesh. This approach helps us to represent semantic knowledgebase of geospatial data about Bangladesh more efficiently. Experimental result shows the effectiveness of our semantic knowledgebase structure. In addition, our experiment shows the efficiency of our system by retrieving information exactly from our ontology in a structured way.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>IEEE</vocab:library_publisher>
+    <vocab:library_published>2014</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1234567891091">
+    <vocab:library_author rdf:resource="author/Joseph_Cavanagh"/>
+    <vocab:library_capacity>3.68 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>807</vocab:library_pages>
+    <vocab:library_title>X86 Assembly Language and C Fundamentals</vocab:library_title>
+    <rdfs:label>library #1234567891091</rdfs:label>
+    <vocab:library_isbn>1234567891091</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>Although assembly language is not as prevalent as a high-level language, such as C or an object-oriented language like C++, it is the predominant language used in embedded microprocessors. A course in a high-level language, such as C, usually precedes a course in assembly language.&#xD;
+Assembly language programming requires a knowledge of number representations, such as fixed-point, decimal, and floating-point; also digital logic, registers, and stacks. In order to thoroughly understand assembly language, it is necessary to be familiar with the architecture of the computer on which the language is being used. For the X86 assembly language, this implies the Intel and Intel-like microprocessors. Programs written in assembly language are usually faster and more compact than programs written in a high-level language and provide greater control over the program application. Assembly language is machine dependent; that is, it is used only with a specific type of processor. A high-level language, however, is usually machine independent; that is, it can be used with any processor.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>CRC Press</vocab:library_publisher>
+    <vocab:library_published>2013</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Android_Essentials_">
+    <vocab:article_title rdf:resource="library/1234567891013"/>
+    <vocab:article_descriptionOrabstract>This book covers the essential information required to build an Android application. It will help any developer, amateur, professional, or dabbler who is interested in developing for Android. &#xD;
+Over the course of the book, I cover the essentials you’ll need to get started with your own innovative application. I took on this project because, after five years of working in the mobile software industry, it has become clear that we need help. With mobile devices becoming more ubiquitous, powerful, and, indeed, essential, fresh blood is necessary to overcome the stagnation that has plagued our business. As an industry, we need to graduate from making cookie-cutter ringtones, wallpaper, and e-mail applications. I hope, once you’ve finished this book, that you’ll be in a position to start that killer mobile product you’ve told all your friends you’re going to make.  </vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Android Essentials </rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1237777891011">
+    <vocab:library_author rdf:resource="author/jQuery_Community_Experts"/>
+    <vocab:library_capacity>6.90 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>478</vocab:library_pages>
+    <vocab:library_title>jQuery Cookbook</vocab:library_title>
+    <rdfs:label>library #1237777891011</rdfs:label>
+    <vocab:library_isbn>1237777891011</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>The jQuery library has taken the frontend development world by storm. Its dead-simplesyntax makes once-complicated tasks downright trivial—enjoyable, even. Many a developer has been quickly seduced by its elegance and clarity. If you’ve started using the library, you’re already adding rich, interactive experiences to your projects.&#xD;
+Getting started is easy, but as is the case with many of the tools we use to develop websites, it can take months or even years to fully appreciate the breadth and depth of the jQuery library. The library is chock-full of features you might never have known to wish for. Once you know about them, they can dramatically change how you approach the problems you’re called upon to solve.&#xD;
+The goal of this cookbook is to expose you, dear reader, to the patterns and practices of some of the leading frontend developers who use jQuery in their everyday projects. &#xD;
+Over the course of 18 chapters, they’ll guide you through solutions to problems that range from straightforward to complex. Whether you’re a jQuery new comer or a grizzled JavaScript veteran, you’re likely to gain new insight into harnessing the full power of jQuery to create compelling, robust, high-performance user interfaces.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>O’Reilly Media, Inc.</vocab:library_publisher>
+    <vocab:library_published>2010</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Michael_C._Daconta%2C_Leo_J._And_Obrst_and_Kevin_T._Smith__">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Michael C. Daconta, Leo J. And Obrst and Kevin T. Smith  </vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Michael C. Daconta, Leo J. And Obrst and Kevin T. Smith  </rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1234567891021">
+    <vocab:library_author rdf:resource="author/John_Davies%2C_Rudi_Studer_And_Germany_Paul_Warren"/>
+    <vocab:library_capacity>4.36 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>327</vocab:library_pages>
+    <vocab:library_title>SemanticWeb Technologies Trends and Research in Ontology-based Systems</vocab:library_title>
+    <rdfs:label>library #1234567891021</rdfs:label>
+    <vocab:library_isbn>1234567891021</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>Semantically Enabled Knowledge Technologies—Toward a New Kind of Web&#xD;
+&#xD;
+Information technology has a surprising way of changing our culture radically often in ways unimaginable to the inventors.&#xD;
+When Gutenberg developed moveable type in the middle of the ﬁfteenth century, his primary goal was to develop a mechanism to speed the printing of Bibles. Gutenberg probably never thought of his technology in terms of the general dissemination of human knowledge via printed media. He never planned explicitly for printing presses to democratize the ownership of knowledge and to take away the monopoly on the control of information that had been held previously by the&#xD;
+Church which initially lacked Gutenberg’s technology, but which had at its disposal the vast numbers of dedicated personnel needed to store, copy, and distribute books in a totally manual fashion. Gutenberg sought a better way to produce Bibles, and as a result changed fundamentally the control of knowledge in Western society. Within a few years, anyone who owned a printing press could distribute knowledge widely to anyone willing to read it.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>John Wiley &amp; Sons Ltd, The Atrium, Southern Gate, Chichester, West Sussex, PO19 8SQ, England</vocab:library_publisher>
+    <vocab:library_published>2006</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Pascal_Hitzler%2C_Markus_Krotzsch_and_Sebastian_Rudolph">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Pascal Hitzler, Markus Krotzsch and Sebastian Rudolph</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Pascal Hitzler, Markus Krotzsch and Sebastian Rudolph</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1234567891061">
+    <vocab:library_author rdf:resource="author/John_Crisp"/>
+    <vocab:library_capacity>3.79 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>287</vocab:library_pages>
+    <vocab:library_title>Introduction to Microprocessors and Microcontrollers</vocab:library_title>
+    <rdfs:label>library #1234567891061</rdfs:label>
+    <vocab:library_isbn>1234567891061</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>The first edition of this book started with the words: ‘A modern society could no longer function without the microprocessor.’&#xD;
+This is certainly still true but it is even truer if we include the microcontroller. While the microprocessor is at the heart of our computers, with a great deal of publicity, the microcontroller is quietly running the rest of our world. They share our homes, our vehicles and our workplace, and sing to us from our greetings cards.&#xD;
+They are our constant, unseen companions and billions are being installed every year with little or no publicity. The purpose of this book is to give a worry-free introduction to microprocessors and microcontrollers. It starts at the beginning and does not assume any previous knowledge of microprocessors or microcontrollers and, in gentle steps, introduces the knowledge necessary to take those vital first steps into the world of the micro.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Newnes "An imprint of Elsevier"</vocab:library_publisher>
+    <vocab:library_published>2004</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1234567891211">
+    <vocab:library_author rdf:resource="author/Michael_C._Daconta%2C_Leo_J._And_Obrst_and_Kevin_T._Smith__"/>
+    <vocab:library_capacity>8.30 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>281</vocab:library_pages>
+    <vocab:library_title>The Semantic Web: A Guide to the Future of XML, Web Services, and Knowledge Management</vocab:library_title>
+    <rdfs:label>library #1234567891211</rdfs:label>
+    <vocab:library_isbn>1234567891211</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>The World Wide Web has dramatically changed the availability of electronically accessible information. The Web currently contains around 3 billion static documents, which are accessed by over 500 million users internationally. At the same time, this enormous amount of data has made it increasingly difficult to find, access, present, and maintain relevant information. This is because information content is presented primarily in natural language. Thus, a wide gap has emerged between the information available for tools aimed at addressing these problems and the information maintained in human-readable form.&#xD;
+&#xD;
+In response to this problem, many new research initiatives and commercial enterprises have been set up to enrich available information with machine processable semantics. Such support is essential for "bringing the Web to its full potential." Tim Berners-Lee, Director of the World Wide Web Consortium, referred to the future of the current Web as the Semantic Web-an extended web of machine-readable information and automated services that amplify the Web far beyond current capabilities. The explicit representation of the semantics underlying data, programs, pages, and other Web resources will enable a knowledge based Web that provides a qualitatively new level of service Automated services will improve in their capacity to assist humans in achieving their goals by "understanding" more of the content on the Web, and thus providing more accurate filtering, categorizing, and searching of these information sources. This process will ultimately lead to an extremely knowledgeable system that features various specialized reasoning services. These services will support us in nearly all aspects of our daily life, making access to information as pervasive, and necessary, as access to electricity is today.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>John Wiley &amp; Sons </vocab:library_publisher>
+    <vocab:library_published>2003</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Semantic_Web_And_Ontology">
+    <vocab:article_title rdf:resource="library/9788740308222"/>
+    <vocab:article_descriptionOrabstract>This chapter covers basic concepts related to web, including the history of the web, the different stages of evolution of web etc.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Semantic Web And Ontology</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Toby_Segaran%2C_Colin_Evans_And_Jamie_Taylor">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Toby Segaran, Colin Evans And Jamie Taylor</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Toby Segaran, Colin Evans And Jamie Taylor</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="vocab/library">
+    <rdfs:label>library</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Search_Engines_Information_Retrieval_in_Practice">
+    <vocab:article_title rdf:resource="library/1234567891311"/>
+    <vocab:article_descriptionOrabstract>This book provides an overview of the important issues in information retrieval,&#xD;
+and how those issues affect the design and implementation of search engines. Not&#xD;
+every topic is covered at the same level of detail. We focus instead on what we&#xD;
+consider to be the most important alternatives to implementing search engine&#xD;
+components and the information retrieval models underlying them. Web search&#xD;
+engines are obviously a major topic, and we base our coverage primarily on the&#xD;
+technology we all use on the Web,  but search engines are also used in many other applications. That is the reason for the strong emphasis on the information retrieval theories and concepts that underlie all search engines.&#xD;
+The target audience for the book is primarily undergraduates in computer science or computer engineering, but graduate students should also find this useful.&#xD;
+We also consider the book to be suitable for most students in information science programs. Finally, practicing search engineers should benefit from the book, whatever their background. There is mathematics in the book, but nothing too esoteric. There are also code and programming exercises in the book, but nothing beyond the capabilities of someone who has taken some basic computer science and programming classes.&#xD;
+The exercises at the end of each chapter make extensive use of a Java™-based&#xD;
+open source search engine called Galago. Galago was designed both for this book&#xD;
+and to incorporate lessons learned from experience with the Lemur and Indri&#xD;
+projects. In other words, this is a fully functional search engine that can be used to support real applications. Many of the programming exercises require the use, modification, and extension of Galago components.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Search Engines Information Retrieval in Practice</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="vocab/article_descriptionOrabstract">
+    <rdfs:label>article descriptionOrabstract</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1233337891011">
+    <vocab:library_author rdf:resource="author/Roberto_Garc%C3%ADa"/>
+    <vocab:library_capacity>86.1 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>445</vocab:library_pages>
+    <vocab:library_title>Semantic Web for Business: Cases and Applications</vocab:library_title>
+    <rdfs:label>library #1233337891011</rdfs:label>
+    <vocab:library_isbn>1233337891011</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>The Semantic Web is what the World Wide Web was initially intended to be by its inventor, Tim Berners-Lee:&#xD;
+"The first step is putting data on the Web in a form that machines can naturally understand, or converting it to that form. This creates what I call a Semantic Web, a Web of data that can be processed directly or indirectly by machines. (Berners-Lee, 2000)".&#xD;
+However, due to the Web deployment challenges, this very ambitious vision was simplified in order to facilitate its take-off. Then, why this vision is being retaken now? And why is this important for ebusiness?&#xD;
+The Semantic Web is not just for the World Wide Web. It represents a set of technologies that work equally well on internal corporate intranets because it tries to solve several key problems in current information technology architectures.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>IGI Global</vocab:library_publisher>
+    <vocab:library_published>2009</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/jQuery_Tools_UI_Library">
+    <vocab:article_title rdf:resource="library/1239997891011"/>
+    <vocab:article_descriptionOrabstract>"Let's face it—do you really need drag and drop, resizable windows, or sortable &#xD;
+lists on your website…?" If the answer is no, then welcome to "jQuery Tools UI Library"!&#xD;
+jQuery Tools is a compact, powerful library that contains enough components to &#xD;
+provide the most important functionality on any website. Many UI libraries contain &#xD;
+a myriad of components, such as list boxes, ranges, sortable lists, and the like. While this can be used to build a range of online-based applications that are useful in company intranets, for example, it is not so useful when building normal websites.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #jQuery Tools UI Library</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1234567891017">
+    <vocab:library_author rdf:resource="author/Bruno_Aranda_and_Zubin_Wadia_"/>
+    <vocab:library_capacity>0.97 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>90</vocab:library_pages>
+    <vocab:library_title>Facelets Essentials: Guide to JavaServer™ Faces View Definition Framework</vocab:library_title>
+    <rdfs:label>library #1234567891017</rdfs:label>
+    <vocab:library_isbn>1234567891017</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>Facelets is a templating language developed from the ground up with JavaServer™ Faces (JSF™) in mind. Because Facelets has come about as a result of many of the concerns with JavaServer™ Pages (JSP™) API when building JSF views, it steps outside of the JSP specification and provides a highly performant, JSF-centric view technology. Its top properties are templating, code reuse, and ease of development.&#xD;
+Focusing on these priorities allows Facelets to help make JSF suitable for &#xD;
+large-scale projects. For example, one of the first things a Facelets developer finds is that the technology immediately leads to a reduction in user interface (UI) code. Take our advice: use Facelets in your applications instead of JSP. In this book, we will show you how to maximize your JSF productivity with Facelets by leveraging it the right contexts. </vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Apress</vocab:library_publisher>
+    <vocab:library_published>2008</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Introduction_to_Microprocessors_and_Microcontrollers">
+    <vocab:article_title rdf:resource="library/1234567891061"/>
+    <vocab:article_descriptionOrabstract>The first edition of this book started with the words: ‘A modern society could no longer function without the microprocessor.’&#xD;
+This is certainly still true but it is even truer if we include the microcontroller. While the microprocessor is at the heart of our computers, with a great deal of publicity, the microcontroller is quietly running the rest of our world. They share our homes, our vehicles and our workplace, and sing to us from our greetings cards.&#xD;
+They are our constant, unseen companions and billions are being installed every year with little or no publicity. The purpose of this book is to give a worry-free introduction to microprocessors and microcontrollers. It starts at the beginning and does not assume any previous knowledge of microprocessors or microcontrollers and, in gentle steps, introduces the knowledge necessary to take those vital first steps into the world of the micro.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Introduction to Microprocessors and Microcontrollers</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Roberto_Garc%C3%ADa">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Roberto García</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Roberto García</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1239997891011">
+    <vocab:library_author rdf:resource="author/Alex_Libby"/>
+    <vocab:library_capacity>1.45 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>112</vocab:library_pages>
+    <vocab:library_title>jQuery Tools UI Library</vocab:library_title>
+    <rdfs:label>library #1239997891011</rdfs:label>
+    <vocab:library_isbn>1239997891011</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>"Let's face it—do you really need drag and drop, resizable windows, or sortable &#xD;
+lists on your website…?" If the answer is no, then welcome to "jQuery Tools UI Library"!&#xD;
+jQuery Tools is a compact, powerful library that contains enough components to &#xD;
+provide the most important functionality on any website. Many UI libraries contain &#xD;
+a myriad of components, such as list boxes, ranges, sortable lists, and the like. While this can be used to build a range of online-based applications that are useful in company intranets, for example, it is not so useful when building normal websites.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Packt Publishing Ltd.</vocab:library_publisher>
+    <vocab:library_published>2012</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="vocab/article_title">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="vocab/library_title">
+    <rdfs:label>library title</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Semantic_Web_For_The_Working_Ontologist_Modeling_In_RDF%2C_RDFS_And_OWL">
+    <vocab:article_title rdf:resource="library/1234567891212"/>
+    <vocab:article_descriptionOrabstract>In the late twentieth century, Berners-Lee had the goal of providing rapid, electronic access to the online technical reports and other documents created by the world’s high-energy physics laboratories. He sought to make it easier for physicists to access their arcane, distributed literature from a range of research centers scattered about the world. In the process, Berners-Lee laid the foundation for the World Wide Web. In 1989, Berners-Lee could only begin imagine how his proposal to link technical reports via hypertext might someday change fundamentally essential aspects of human communication and social interaction. It was not his intention to revolutionize communication of information for ecommerce, for geographic reasoning, for government services, or for any of the myriad Web-based applications that we now take for granted.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Semantic Web For The Working Ontologist Modeling In RDF, RDFS And OWL</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Bruno_Aranda_and_Zubin_Wadia_">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Bruno Aranda and Zubin Wadia </vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Bruno Aranda and Zubin Wadia </rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="vocab/author">
+    <rdfs:label>author</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/9781509055869">
+    <vocab:library_author rdf:resource="author/Shah_Khusro_%2C_Irfan_Ullah"/>
+    <vocab:library_capacity>3437 KB</vocab:library_capacity>
+    <vocab:library_type>Eproceeding</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>8</vocab:library_pages>
+    <vocab:library_title>Towards a Semantic Book Search Engine</vocab:library_title>
+    <rdfs:label>library #9781509055869</rdfs:label>
+    <vocab:library_isbn>9781509055869</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>Traditional Information Retrieval (IR) methods were initially used for searching and ranking webpages on the Web. These methods were progressively modified to exploit the peculiarities of the Web including the use of the hyperlinked &#xD;
+structure of the Web for relevance ranking. These Web IR techniques, however, are also being applied for searching and ranking to other forms of text collections which are not inherently web documents. Books (especially in PDF form) are by nature different from web pages because they lack an explicit &#xD;
+hypertextual structure and therefore cannot be accurately and precisely searched and ranked using traditional approaches.&#xD;
+Books contain a highly structured content with implicit logical connections among different parts of the same book as well as to related content in other books. These book structural semantics and logical connections could be discovered and used to establish a web of books where the logical concepts, images, figures, tables, and other parts are linked with each other thus resulting in a semantic graph, which could then be exploited by a semantic &#xD;
+book search engine for more precise and accurate indexing, searching, ranking and recommendations. Based on this hypothesis, the paper outlines a high-level architecture for one of the possible implementations of a semantic book search engine, identifies all the potential areas of research for future researchers, and reports on our work in progress in the form of the proposed model for the purpose. The proposed architecture, if implemented in its true sense, has the potential to better serve the needs of all the stakeholders including authors, publishers, readers, and librarians. </vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>IEEE - International Conference on Open Source Systems and Technologies (ICOSST)</vocab:library_publisher>
+    <vocab:library_published>2016</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/A_Web-based_Smart_Inference_System_to_Support_Automated_Generation_of_LCA_Simulation_Models">
+    <vocab:article_title rdf:resource="library/1244567891011"/>
+    <vocab:article_descriptionOrabstract>The decision on most eco-efficient production scheme for producing customized products is highly time consuming and error-prone as it depends on several factors most notably the geographical locations, legal requirements, materials characteristics and process related parameters. Furthermore, the planners must be experienced with the simulation tools as well as related terminologies, environmental laws and standards to conduct precise assessments. The limited functionalities of decision making tools as well as non-automated exchange of information and data, absence of environment related knowledge and non-standardized interfaces between the simulation tools and ERP/PLM systems make planners incapable of reaching quick decisions on eco-efficient choices.  &#xD;
+This paper proposes a web-based inference system seamlessly connected with the LCA simulation tools and legacy systems. The web-based software automatically analyzes the input on manufacturing alternatives to produce customized products and generates automatically the corresponding LCA simulation models. These models can be used inside LCA tools. </vocab:article_descriptionOrabstract>
+    <rdfs:label>article #A Web-based Smart Inference System to Support Automated Generation of LCA Simulation Models</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/jQuery_UI">
+    <vocab:article_title rdf:resource="library/1238887891011"/>
+    <vocab:article_descriptionOrabstract>jQuery is a popular JavaScript library that is extensible using plug-ins. Some plug-ins, specifically those for managing the user interface, have been collected together in the jQuery UI library. These plug-ins help facilitate interaction with the user, and these interactions are simpler to manage if you use jQuery only.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #jQuery UI</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Kai_R._Larsen%2C_Dirk_Hovorka%2C_Jevin_West%2C_James_Birt%2C_James_R._Pfaff%2C_Trevor_W._Chambers%2C_Zebula_R._Sampedro%2C_Nick_Zager_And_Bruce_Vanstone_">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Kai R. Larsen, Dirk Hovorka, Jevin West, James Birt, James R. Pfaff, Trevor W. Chambers, Zebula R. Sampedro, Nick Zager And Bruce Vanstone </vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Kai R. Larsen, Dirk Hovorka, Jevin West, James Birt, James R. Pfaff, Trevor W. Chambers, Zebula R. Sampedro, Nick Zager And Bruce Vanstone </rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Programming_the_Semantic_Web">
+    <vocab:article_title rdf:resource="library/1234567891042"/>
+    <vocab:article_descriptionOrabstract>Like biological organisms, computers operate in complex, interconnected environ-&#xD;
+ments where each element of the system constrains the behavior of many others. Similar to predator-prey relationships, applications and the data they consume tend to follow co-evolutionary paths. Cumulative changes in an application eventually require modification to the data structures on which it operates. Conversely, when enhancements to a data source emerge, the structures for expressing the additional information generally force applications to change. Unfortunately, because of the significant efforts involved, this type of lock-step evolution tends to dampen enhancements in both applications and data sources.&#xD;
+At their core, semantic technologies decouple applications from data through the use of a simple, abstract model for knowledge representation. This model releases the mutual constraints on applications and data, allowing both to evolve independently. And by design, this degree of application-data independence promotes data portability. Any application that understands the model can consume any data source using the model.&#xD;
+It is this level of data portability that underlies the notion of a machine-readable semantic web.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Programming the Semantic Web</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/ASeCS%3A_Assistive_Self-Care_Software_Architectures_for_Delivering_Service_in_Care_Homes">
+    <vocab:article_title rdf:resource="library/1264567891011"/>
+    <vocab:article_descriptionOrabstract>We propose a layered and component based software architecture, which generates semantic software applications, for the purpose of delivering personalized services for residents in Self-Care Homes (SeCH). The architectural core layers &#xD;
+accommodate software components which grasp and understand the semantic of various situations we may encounter in SeCH, through a variety of cyber-&#xD;
+physical objects which co-exist in pervasive environments used in monitoring SeCH residents. The decision making on appropriate actions in SeCH is based on reasoning created by  SWRL enabled OWL ontologies to ensure that in any situation, residents are delivered suitable and personalized healthcare &#xD;
+services. The ASeCS architecture has been deployed through component based Java technologies, and uses OWL-API in order to seamlessly incorporate reasoning into software applications. ASeCS is SeCH specific, but provides a window of opportunities for creating modern and flexible software solutions for pervasive healthcare, where decision making solely depends on OWL/SWRL enabled computations. </vocab:article_descriptionOrabstract>
+    <rdfs:label>article #ASeCS: Assistive Self-Care Software Architectures for Delivering Service in Care Homes</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/SemanticWeb_Technologies_Trends_and_Research_in_Ontology-based_Systems">
+    <vocab:article_title rdf:resource="library/1234567891021"/>
+    <vocab:article_descriptionOrabstract>Semantically Enabled Knowledge Technologies—Toward a New Kind of Web&#xD;
+&#xD;
+Information technology has a surprising way of changing our culture radically often in ways unimaginable to the inventors.&#xD;
+When Gutenberg developed moveable type in the middle of the ﬁfteenth century, his primary goal was to develop a mechanism to speed the printing of Bibles. Gutenberg probably never thought of his technology in terms of the general dissemination of human knowledge via printed media. He never planned explicitly for printing presses to democratize the ownership of knowledge and to take away the monopoly on the control of information that had been held previously by the&#xD;
+Church which initially lacked Gutenberg’s technology, but which had at its disposal the vast numbers of dedicated personnel needed to store, copy, and distribute books in a totally manual fashion. Gutenberg sought a better way to produce Bibles, and as a result changed fundamentally the control of knowledge in Western society. Within a few years, anyone who owned a printing press could distribute knowledge widely to anyone willing to read it.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #SemanticWeb Technologies Trends and Research in Ontology-based Systems</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1234567891212">
+    <vocab:library_author rdf:resource="author/Dean_Allemang_And_James_Hendler"/>
+    <vocab:library_capacity>3.87 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>349</vocab:library_pages>
+    <vocab:library_title>Semantic Web For The Working Ontologist Modeling In RDF, RDFS And OWL</vocab:library_title>
+    <rdfs:label>library #1234567891212</rdfs:label>
+    <vocab:library_isbn>1234567891212</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>In the late twentieth century, Berners-Lee had the goal of providing rapid, electronic access to the online technical reports and other documents created by the world’s high-energy physics laboratories. He sought to make it easier for physicists to access their arcane, distributed literature from a range of research centers scattered about the world. In the process, Berners-Lee laid the foundation for the World Wide Web. In 1989, Berners-Lee could only begin imagine how his proposal to link technical reports via hypertext might someday change fundamentally essential aspects of human communication and social interaction. It was not his intention to revolutionize communication of information for ecommerce, for geographic reasoning, for government services, or for any of the myriad Web-based applications that we now take for granted.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Morgan Kaufmann PUBL</vocab:library_publisher>
+    <vocab:library_published>2008</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/9788740308222">
+    <vocab:library_author rdf:resource="author/Dhana_Nandini"/>
+    <vocab:library_capacity>13.9 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>107</vocab:library_pages>
+    <vocab:library_title>Semantic Web And Ontology</vocab:library_title>
+    <rdfs:label>library #9788740308222</rdfs:label>
+    <vocab:library_isbn>9788740308222</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>This chapter covers basic concepts related to web, including the history of the web, the different stages of evolution of web etc.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>bookboon.com The eBook Company</vocab:library_publisher>
+    <vocab:library_published>2014</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="vocab/library_publisher">
+    <rdfs:label>library publisher</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/PENERAPAN_SEMANTIK_WEB_PADA_ONTOLOGI_LEARNING_RESOURCE_REPOSITORI">
+    <vocab:article_title rdf:resource="library/2089-9815_"/>
+    <vocab:article_descriptionOrabstract>Penelitian ini bertujuan untuk menerapkan web semantik pada domain learning resource. Penerapan web semantik dengan mamanfaatkan RAP library yang merupakan RDF Api, SPARQL sebagai query untuk mengakses RDF, serta PHP sebagai bahasa server side scripting. Tahapan yang dilakukan dalam penelitian ini antara lain analisis kebutuhan sistem, pengumpulan data, perancangan, pengkodean, pengujian. Hasil dari penelitian ini berupa web semantik yang membantu dalam perncarian learning resource. </vocab:article_descriptionOrabstract>
+    <rdfs:label>article #PENERAPAN SEMANTIK WEB PADA ONTOLOGI LEARNING RESOURCE REPOSITORI</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/A_Semantic_Web_Primer_second_edition">
+    <vocab:article_title rdf:resource="library/1234567891072"/>
+    <vocab:article_descriptionOrabstract>The World Wide Web (WWW) has changed the way people communicate with each other, how information is disseminated and retrieved, and how business is conducted. The term Semantic Web comprises techniques that promise to dramatically improve the current WWW and its use. This book is about this emerging technology.&#xD;
+The success of each book should be judged against the librarys’ aims. This is an introductory textbook about the Semantic Web. Its main use will be to serve as the basis for university courses about the Semantic Web. It can also be used for self-study by anyone who wishes to learn about Semantic Web technologies.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #A Semantic Web Primer second edition</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/An_Introduction_to_Information_Retrieval">
+    <vocab:article_title rdf:resource="library/1234567891411"/>
+    <vocab:article_descriptionOrabstract>As recently as the 1990s, studies showed that most people preferred getting&#xD;
+information from other people rather than from information retrieval systems. Of course, in that time period, most people also used human travel agents to book their travel. However, during the last decade, relentless optimization of information retrieval effectiveness has driven web search engines to new quality levels where most people are satis?ed most of the time, and web search has become a standard and often preferred source of information ending. For example, the 2004 Pew Internet Survey (Fallows 2004) found that “92% of Internet users say the Internet is a good place to go for getting everyday information.” To the surprise of many, the field of information retrieval has moved from being a primarily academic discipline to being the basis underlying most people’s preferred means of information access. This book presents the scientific underpinnings of this field, at a level accessible to graduate students as well as advanced undergraduates. &#xD;
+Information retrieval did not begin with the Web. In response to various&#xD;
+challenges of providing information access, the ?eld of information retrieval&#xD;
+evolved to give principled approaches to searching various forms of content. The ?eld began with scienti?c publications and library records, but soon spread to other forms of content, particularly those of information professionals, such as journalists, lawyers, and doctors. Much of the scientific research on information retrieval has occurred in these contexts, andmuch of the continued practice of information retrieval dealswith providing access to unstructured information in various corporate and governmental domains, and this work forms much of the foundation of our book.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #An Introduction to Information Retrieval</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Semantic_Web_Services_-_Advancement_through_Evaluation">
+    <vocab:article_title rdf:resource="library/1235557891011"/>
+    <vocab:article_descriptionOrabstract>This book compiles the perspectives, approaches and results of the research associated with three current Semantic Web Service (SWS) evaluation initiatives, namely the Semantic Service Selection (S3) contest, the Semantic Web Service Challenge (SWS Challenge) and the Web Service Challenge (WS Challenge).&#xD;
+The book will contain an overall overview and comparison of these initiatives as well as chapters contributed by librarys that have taken part in one or more of these initiatives.&#xD;
+In addition, the participants are given the opportunity to focus on a comparative analysis of the features and performance of their tools with respect to other contest entries.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Semantic Web Services - Advancement through Evaluation</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Radmila_Juric%2C_Jasna_Kuljis_And_Patricia_Oberndorf_">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Radmila Juric, Jasna Kuljis And Patricia Oberndorf </vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Radmila Juric, Jasna Kuljis And Patricia Oberndorf </rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Dibya_Raj_Ghosh_And_Poovammal_E__">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Dibya Raj Ghosh And Poovammal E  </vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Dibya Raj Ghosh And Poovammal E  </rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/A_Semantic_Knowledgebase_Representation_of__Geospatial_Data_in_the_Context_of_Bangladesh">
+    <vocab:article_title rdf:resource="library/1232627891011"/>
+    <vocab:article_descriptionOrabstract>There are a large amount of geospatial data available. A number of methods are also proposed for processing and retrieving geospatial information. However, end users ability to retrieve and link geospatial data is limited. Semantic knowledgebase of geospatial data provides information about places in the world and spatial relations between them. In this paper, we use semantic knowledgebase of geospatial data for retrieving user’s information efficiently in the context of Bangladesh. In our experiment, we mainly collect a lot of geospatial data from Bangladesh government website http://www.bangladesh.gov.bd and other sources. We exploit our geospatial data in a structured way by XML parsing on java platform. Our proposed method generates N-triples from the data of XML parsing. We use Protégé environment to build ontology. Ontology contained information about hierarchical data of Bangladesh. This approach helps us to represent semantic knowledgebase of geospatial data about Bangladesh more efficiently. Experimental result shows the effectiveness of our semantic knowledgebase structure. In addition, our experiment shows the efficiency of our system by retrieving information exactly from our ontology in a structured way.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #A Semantic Knowledgebase Representation of  Geospatial Data in the Context of Bangladesh</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Modeling_and_Generating_Graphical_User_Interface_for_MVC_Rich_Internet_Application_using_a_Model_Driven_Approach">
+    <vocab:article_title rdf:resource="library/1233127891011"/>
+    <vocab:article_descriptionOrabstract>Rich Internet Applications (RIA) have been proposed as a response to growing user needs. Indeed, they have combined the richness and interactivity of desktop interfaces into the web distribution model. However, RIAs are complex applications and their development requires designing and implementation which can be time-consuming and the available tools are specialized in manual design. Besides, the design of a usable Graphical User Interface (GUI) with the layout respecting the user’s wishes remains a challenge. In this paper, we present a model driven development process to generate RIAs, focusing on the graphical interface, based on simplifying the task for the designer and not necessary be aware of the implementation specification.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Modeling and Generating Graphical User Interface for MVC Rich Internet Application using a Model Driven Approach</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Semantic_Web_Programming">
+    <vocab:article_title rdf:resource="library/1236967891011"/>
+    <vocab:article_descriptionOrabstract>Semantic Web Programming takes the Semantic Web directly and boldly into solving practical, real-world problems that ?exibly deliver real value from our growing ability to access information and services from our laptop to the enterprise to the World Wide Web. The chapters form a solid, code-based path addressing information and service challenges. As the code examples build, we pragmatically explore themany technologies that formthe Semantic Web, including the knowledge representations such asmicroformats, Resource Description Framework (RDF), RDF Schema (RDFS), the Web Ontology Language (OWL) including its latest release OWL 2 and Semantic Web Rule Language (SWRL), Semantic Web programming frameworks such as Jena, and useful Semantic Web tools. We explore these technologies, not as ends in&#xD;
+themselves but rather for their role and merits in solving real problems. Thus,&#xD;
+your learning is based on results—the results that each technology brings to&#xD;
+address your application challenges.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Semantic Web Programming</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="vocab/author_email">
+    <rdfs:label>author email</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/K.K._Breitman%2C_M.A._Casanova_And_W._Truszkowski">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>K.K. Breitman, M.A. Casanova And W. Truszkowski</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #K.K. Breitman, M.A. Casanova And W. Truszkowski</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Introduction_to_Information_Retrieval">
+    <vocab:article_title rdf:resource="library/1234567891031"/>
+    <vocab:article_descriptionOrabstract>As recently as the 1990s, studies showed that most people preferred getting&#xD;
+information from other people rather than from information retrieval (IR)&#xD;
+systems. Of course, in that time period, most people also used human travel&#xD;
+agents to book their travel. However, during the last decade, relentless optimization of information retrieval effectiveness has drivenweb search engines to new quality levels at whichmost people are satis?ed most of the time, and&#xD;
+web search has become a standard and often preferred source of information&#xD;
+ending. For example, the 2004 Pew Internet Survey (Fallows 2004) found that “92% of Internet users say the Internet is a good place to go for getting everyday information.” To the surprise of many, the field of information retrieval has moved from being a primarily academic discipline to being the basis underlying most people’s preferred means of information access. This book presents the scienti?c underpinnings of this ?eld, at a level accessible to graduate students as well as advanced undergraduates.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Introduction to Information Retrieval</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Alex_Libby">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Alex Libby</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Alex Libby</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Do_Ontological_Guidelines_Improve_Understandability_of_Conceptual_Models%3F_A_Meta-Analysis_of_Empirical_Work">
+    <vocab:article_title rdf:resource="library/1284567891011"/>
+    <vocab:article_descriptionOrabstract>Conceptual models are used to understand information systems application domains and to communicate about them in order to better understand system requirements.  Conceptual models are required to represent relevant aspects of the modeled domain faithfully, and be understandable. The use of ontological theories has been proposed to guide the creation of effective models. Specifically, Bunge’s &#xD;
+ontology has been applied to guide the use of the ERM, the UML, and business process grammars.  However, because the choice of ontology reflects beliefs, and &#xD;
+model understanding involves human cognition, whether or not ontological guidance results in better models is an empirical question. Several empirical &#xD;
+works studied this issue, differing in grammars, modeling aspects, empirical tasks, and measures. We report a meta-analysis of published empirical research &#xD;
+about the impact of ontological guidance based on Bunge’s model, and user understanding of conceptual models. The results support the proposition that &#xD;
+ontological guidance can improve model understandability.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Do Ontological Guidelines Improve Understandability of Conceptual Models? A Meta-Analysis of Empirical Work</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1234567891055">
+    <vocab:library_author rdf:resource="author/Martin_Hepp%2C_Pieter_De_Leenheer%2C_Aldo_de_Moor_And_York_Sure_"/>
+    <vocab:library_capacity>5.28 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>301</vocab:library_pages>
+    <vocab:library_title>Ontology Management Semantic Web, Semantic Web Services And Business Applications</vocab:library_title>
+    <rdfs:label>library #1234567891055</rdfs:label>
+    <vocab:library_isbn>1234567891055</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>About fifteen years ago, the word “ontologies” started to gain popularity &#xD;
+in computer science research. The term was initially borrowed from creating the abstractions needed when using computers for real-world problems. It was novel in at least three senses: First, taking well-studied philosophical distinctions as the foundation for defining conceptual elements; this helps create more lasting data and object models and eases interoperability. Second, using  formal semantics for an approximate description of what a conceptual element’s intended meaning is. This helps avoid unintended interpretations and, consequently, unintended usages of a conceptual element. It also allows using a computer for reasoning about implicit facts. And, last but not least, this improves the interoperability of data and services alike. Third, ontologies are meant to be  consensual abstractions of a relevant field of interest, i.e., they are shared and accepted by a large audience. Even though the extreme stage of consensus in the form of a “true” representation of the domain is impossible to reach, a key goal is a widely accepted model of reality; accepted by many people, applicable for many tasks, and manifested in many different software systems.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Springer Science+Business Media, LLC</vocab:library_publisher>
+    <vocab:library_published>2008</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1232427891011">
+    <vocab:library_author rdf:resource="author/Gianfranco_E._Modoni_And_Marco_Sacco%2C_Walter_Terkaj"/>
+    <vocab:library_capacity>237 KB</vocab:library_capacity>
+    <vocab:library_type>Ejournal</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>7</vocab:library_pages>
+    <vocab:library_title>A survey of RDF store solutions </vocab:library_title>
+    <rdfs:label>library #1232427891011</rdfs:label>
+    <vocab:library_isbn>1232427891011</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>This paper analyzes the potential of Semantic Web technologies to support innovation in industrial scenarios. The study focuses in particular on RDF stores, the software components dedicated to the storage, representation and retrieval of semantic information. Starting from a literature review, a qualitative analysis is carried out considering a set of these systems. RDF stores are evaluated to find the implementations that are best suited to play the role of backbone in a software architecture sharing information between the software tools adopted by the various stakeholders. This can be achieved if the architecture overcomes the problems deriving from the lack of integration between the involved software applications, providing in this way an integrated view on relevant engineering knowledge.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>IEEE</vocab:library_publisher>
+    <vocab:library_published>2014</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Gianfranco_E._Modoni_And_Marco_Sacco%2C_Walter_Terkaj">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Gianfranco E. Modoni And Marco Sacco, Walter Terkaj</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Gianfranco E. Modoni And Marco Sacco, Walter Terkaj</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Jos_de_Bruijn_%C2%B7_Dieter_Fensel%2C__Mick_Kerrigan_Uwe_Keller_And_Holger_Lausen_%C2%B7_James_Scicluna">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Jos de Bruijn · Dieter Fensel,  Mick Kerrigan Uwe Keller And Holger Lausen · James Scicluna</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Jos de Bruijn · Dieter Fensel,  Mick Kerrigan Uwe Keller And Holger Lausen · James Scicluna</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/John_Davies%2C_Rudi_Studer_And_Germany_Paul_Warren">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>John Davies, Rudi Studer And Germany Paul Warren</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #John Davies, Rudi Studer And Germany Paul Warren</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1234567891031">
+    <vocab:library_author rdf:resource="author/Christopher_D._Manning%2C_Prabhakar_Raghavan%2C_Hinrich_Schutze"/>
+    <vocab:library_capacity>6.26 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>504</vocab:library_pages>
+    <vocab:library_title>Introduction to Information Retrieval</vocab:library_title>
+    <rdfs:label>library #1234567891031</rdfs:label>
+    <vocab:library_isbn>1234567891031</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>As recently as the 1990s, studies showed that most people preferred getting&#xD;
+information from other people rather than from information retrieval (IR)&#xD;
+systems. Of course, in that time period, most people also used human travel&#xD;
+agents to book their travel. However, during the last decade, relentless optimization of information retrieval effectiveness has drivenweb search engines to new quality levels at whichmost people are satis?ed most of the time, and&#xD;
+web search has become a standard and often preferred source of information&#xD;
+ending. For example, the 2004 Pew Internet Survey (Fallows 2004) found that “92% of Internet users say the Internet is a good place to go for getting everyday information.” To the surprise of many, the field of information retrieval has moved from being a primarily academic discipline to being the basis underlying most people’s preferred means of information access. This book presents the scienti?c underpinnings of this ?eld, at a level accessible to graduate students as well as advanced undergraduates.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Cambridge University Press</vocab:library_publisher>
+    <vocab:library_published>2008</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="vocab/library_format">
+    <rdfs:label>library format</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Idea_Group_Inc.">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Idea Group Inc.</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Idea Group Inc.</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/PENERAPAN_WEB_SEMANTIK_PADA_ONTOLOGI_PERPUSTAKAAN_DIGITAL_KARYA_ILMIAH">
+    <vocab:article_title rdf:resource="library/1111111111111"/>
+    <vocab:article_descriptionOrabstract>Penelitian dalam pengerjaan tesis ini, melakukan sebuah penerapan web 3.0 dengan menggunakan algoritma Latent Semantic Indexing  (LSI) untuk mendapatkan informasi yang lebih relevan dari pencarian yang dilakukan. Penerapan web semantik ini dilakukan dengan mamanfaatkan d2rq-server dalam menghasilkan data RDF, SPARQL yang digunakan sebagai query dalam mengakses data RDF, serta menggunakan java server faces dalam membangun perangkat lunak.&#xD;
+Hasil dari penelitian yang dilakukan berupa informasi web semantik yang dapat membantu pengguna dalam pencarian literatur yang dibutuhkan.&#xD;
+</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #PENERAPAN WEB SEMANTIK PADA ONTOLOGI PERPUSTAKAAN DIGITAL KARYA ILMIAH</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Christopher_D._Manning%2C_Prabhakar_Raghavan_And_Hinrich_Sch%C3%BCtze">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Christopher D. Manning, Prabhakar Raghavan And Hinrich Schütze</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Christopher D. Manning, Prabhakar Raghavan And Hinrich Schütze</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Christopher_D._Manning%2C_Prabhakar_Raghavan%2C_Hinrich_Schutze">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Christopher D. Manning, Prabhakar Raghavan, Hinrich Schutze</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Christopher D. Manning, Prabhakar Raghavan, Hinrich Schutze</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1234567891411">
+    <vocab:library_author rdf:resource="author/Christopher_D._Manning%2C_Prabhakar_Raghavan_And_Hinrich_Sch%C3%BCtze"/>
+    <vocab:library_capacity>6.58 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>581</vocab:library_pages>
+    <vocab:library_title>An Introduction to Information Retrieval</vocab:library_title>
+    <rdfs:label>library #1234567891411</rdfs:label>
+    <vocab:library_isbn>1234567891411</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>As recently as the 1990s, studies showed that most people preferred getting&#xD;
+information from other people rather than from information retrieval systems. Of course, in that time period, most people also used human travel agents to book their travel. However, during the last decade, relentless optimization of information retrieval effectiveness has driven web search engines to new quality levels where most people are satis?ed most of the time, and web search has become a standard and often preferred source of information ending. For example, the 2004 Pew Internet Survey (Fallows 2004) found that “92% of Internet users say the Internet is a good place to go for getting everyday information.” To the surprise of many, the field of information retrieval has moved from being a primarily academic discipline to being the basis underlying most people’s preferred means of information access. This book presents the scientific underpinnings of this field, at a level accessible to graduate students as well as advanced undergraduates. &#xD;
+Information retrieval did not begin with the Web. In response to various&#xD;
+challenges of providing information access, the ?eld of information retrieval&#xD;
+evolved to give principled approaches to searching various forms of content. The ?eld began with scienti?c publications and library records, but soon spread to other forms of content, particularly those of information professionals, such as journalists, lawyers, and doctors. Much of the scientific research on information retrieval has occurred in these contexts, andmuch of the continued practice of information retrieval dealswith providing access to unstructured information in various corporate and governmental domains, and this work forms much of the foundation of our book.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Cambridge University Press</vocab:library_publisher>
+    <vocab:library_published>2009</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Ontology_Based_Semantic_Web_on_Hadoop_Platform">
+    <vocab:article_title rdf:resource="library/978467399395"/>
+    <vocab:article_descriptionOrabstract>In recent times size of the data is increasing rapidly. Existing centralized system is not able to handle large dataset beyond a certain limit. So, we need ontology based approach in Semantic Web and distributed system. Ontology &#xD;
+describes a formal specification of certain domain. Existing platform and servers are unable to process different types of data like structured, semi-structured and quasi- structured data to have an effective large number of ontologies in the web. We need the Hadoop platform to implement the incremental and distributed ontologies over and  above existing ontologies in Semantic Web. RDF is the basic representation of ontologies and it is used to describe the knowledge in the Semantic Web. The challenges is using RDF include structure of RDF and the memory that is needed for the incremental comparison. &#xD;
+MapReduce is one of the main Hadoop components are needed during the mapping of ontologies in the Semantic Web using RDF. In this paper better way of using incremental RDF in Semantic Web is discussed. </vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Ontology Based Semantic Web on Hadoop Platform</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Vijayan_Sugumaran_And_Jon_Atle_Gulla">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Vijayan Sugumaran And Jon Atle Gulla</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Vijayan Sugumaran And Jon Atle Gulla</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/David_Hughes">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>David Hughes</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #David Hughes</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1236667891011">
+    <vocab:library_author rdf:resource="author/Idea_Group_Inc."/>
+    <vocab:library_capacity>5.87 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>329</vocab:library_pages>
+    <vocab:library_title>Semantic Web-Based  Information Systems: State-of-the-Art Applications</vocab:library_title>
+    <rdfs:label>library #1236667891011</rdfs:label>
+    <vocab:library_isbn>1236667891011</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>Importance of semantics has been recognized in different areas of data and information management, including better access, exchange, interoperability, integration and analysis of data. Semantics of data is about associating meaning to data, and understand what data represents, and improve the value of data.  Early use of semantics in the context of data and information management occurred in the context of development of multidatabase or federated database systems, to be followed by mediator and information brokering architectures. As the Web started to take the shape as a global information system and as a way to connect distributed data repositories, usage of metadata and semantics correspondingly started in early 1990s and increased there after. The first use of the term “semantic information brokering” in 1993 conceived the use of semantics in the form of domain models and ontologies for heterogeneous data integration, and about the same time, ontology-based information integration was proposed in some mediator based projects. In the last two chapters of his book Weaving the Web (Harper, 1997), Tim Berners-Lee started to put forth a vision of the next phase of the Web in which semantics would play a critical role, and the term Semantic Web was coined. Research community, first supported by the DARPA’s DAML program (for which Jim Handler was the program manager) quickly saw the new research opportunity. This book contributes to the revolutionary domain of Semantic Web and information systems in four following aspects, namely, vision, methodologies, tools and applications.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Amit Sheth And Miltiadis Lytras </vocab:library_publisher>
+    <vocab:library_published>2007</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Sarfraz_Ul_Haque_Minhas_And_Ulrich_Berger_">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Sarfraz Ul Haque Minhas And Ulrich Berger </vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Sarfraz Ul Haque Minhas And Ulrich Berger </rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Lasmedi_Afuan_%2C_Azhari">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Lasmedi Afuan , Azhari</vocab:author_author_name>
+    <vocab:author_email>Indonesia@gmail.com</vocab:author_email>
+    <rdfs:label>author #Lasmedi Afuan , Azhari</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/jQuery_Cookbook">
+    <vocab:article_title rdf:resource="library/1237777891011"/>
+    <vocab:article_descriptionOrabstract>The jQuery library has taken the frontend development world by storm. Its dead-simplesyntax makes once-complicated tasks downright trivial—enjoyable, even. Many a developer has been quickly seduced by its elegance and clarity. If you’ve started using the library, you’re already adding rich, interactive experiences to your projects.&#xD;
+Getting started is easy, but as is the case with many of the tools we use to develop websites, it can take months or even years to fully appreciate the breadth and depth of the jQuery library. The library is chock-full of features you might never have known to wish for. Once you know about them, they can dramatically change how you approach the problems you’re called upon to solve.&#xD;
+The goal of this cookbook is to expose you, dear reader, to the patterns and practices of some of the leading frontend developers who use jQuery in their everyday projects. &#xD;
+Over the course of 18 chapters, they’ll guide you through solutions to problems that range from straightforward to complex. Whether you’re a jQuery new comer or a grizzled JavaScript veteran, you’re likely to gain new insight into harnessing the full power of jQuery to create compelling, robust, high-performance user interfaces.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #jQuery Cookbook</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Eric_Sarrion">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Eric Sarrion</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Eric Sarrion</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Vishal_Layka_And_Boris_Minkin">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Vishal Layka And Boris Minkin</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Vishal Layka And Boris Minkin</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Agent-Based_Semantic_Web_Service_Composition">
+    <vocab:article_title rdf:resource="library/1234567891065"/>
+    <vocab:article_descriptionOrabstract>The basic aim of the Semantic Web is to create a layer on the existing Web&#xD;
+enabling advanced automatic processing of the web-content that further allows the sharing and processing of data by both humans and software. Semantic Web&#xD;
+Services can be de?ned as the self-suf?cient, reusable software components that&#xD;
+can be used to ful?ll a particular task. In the real-life scenario, the client&#xD;
+requirements cannot be satis?ed using only the single service component. In such&#xD;
+cases, service discovery and selection is used for selecting the most appropriate&#xD;
+service components followed by the service composition for generating the&#xD;
+aggregation of selected service components according to the requested task.&#xD;
+Different types of approaches providing Semantic Web service composition are&#xD;
+available in the literature. In this book, we are mainly concerned with the agent-based Semantic Web service composition. Multiagent-based Semantic Web&#xD;
+service composition is based upon the argument that a multiagent system can be&#xD;
+considered as a service composition system, in which different involved agents&#xD;
+represent the different individual services.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Agent-Based Semantic Web Service Composition</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Arash_Saghafi_And_Yair_Wand">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Arash Saghafi And Yair Wand</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Arash Saghafi And Yair Wand</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1234567891072">
+    <vocab:library_author rdf:resource="author/Grigoris_Antoniou_And_Frank_van_Harmelen"/>
+    <vocab:library_capacity>3.75 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>287</vocab:library_pages>
+    <vocab:library_title>A Semantic Web Primer second edition</vocab:library_title>
+    <rdfs:label>library #1234567891072</rdfs:label>
+    <vocab:library_isbn>1234567891072</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>The World Wide Web (WWW) has changed the way people communicate with each other, how information is disseminated and retrieved, and how business is conducted. The term Semantic Web comprises techniques that promise to dramatically improve the current WWW and its use. This book is about this emerging technology.&#xD;
+The success of each book should be judged against the librarys’ aims. This is an introductory textbook about the Semantic Web. Its main use will be to serve as the basis for university courses about the Semantic Web. It can also be used for self-study by anyone who wishes to learn about Semantic Web technologies.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>The MIT Press Cambridge, Massachusetts London, England</vocab:library_publisher>
+    <vocab:library_published>2008</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1234567891561">
+    <vocab:library_author rdf:resource="author/Robert_M._Colomb"/>
+    <vocab:library_capacity>3.06 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>272</vocab:library_pages>
+    <vocab:library_title>ONTOLOGY AND THE SEMANTIC WEB </vocab:library_title>
+    <rdfs:label>library #1234567891561</rdfs:label>
+    <vocab:library_isbn>1234567891561</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>Nearly every business or organization is supported by an information system.&#xD;
+Companies in the finance, insurance and real estate industry group are very little more than information systems. Mines and farms use information systems to keep track of production and assets. Manufacturers, wholesalers and retailers use information systems to manage their production, sales and employees. Construction firms use information systems to bid for and manage projects. Transportation firms use them to schedule services. The health sector is served by thousands of systems assisting in the operation of various departments in hospitals, doctors’ surgeries, and the flow of payments through the system. Universities use information systems to keep track of students, courses, libraries and staff. Governments use them to record births, deaths and marriages, and in the provision of all sorts of services.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>The library and IOS Press. </vocab:library_publisher>
+    <vocab:library_published>2007</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1299567891011">
+    <vocab:library_author rdf:resource="author/Kai_R._Larsen%2C_Dirk_Hovorka%2C_Jevin_West%2C_James_Birt%2C_James_R._Pfaff%2C_Trevor_W._Chambers%2C_Zebula_R._Sampedro%2C_Nick_Zager_And_Bruce_Vanstone_"/>
+    <vocab:library_capacity>694 KB</vocab:library_capacity>
+    <vocab:library_type>Eproceeding</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>10</vocab:library_pages>
+    <vocab:library_title>Theory Identity: A Machine-Learning Approach</vocab:library_title>
+    <rdfs:label>library #1299567891011</rdfs:label>
+    <vocab:library_isbn>1299567891011</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>Theory identity is a fundamental problem for researchers seeking to determine theory quality, create theory ontologies and taxonomies, or perform focused theory-specific reviews and meta-analyses. We demonstrate a novel machine-learning approach to theory identification based on citation data and library features. The multi-disciplinary ecosystem of librarys which cite a theory’s originating paper is created and refined into the network of papers predicted to contribute to, and thus identify, a specific theory. We provide a ‘proof-of-concept’ for a highly-cited theory. Implications for cross-disciplinary theory integration and the identification of theories for a rapidly expanding scientific literature are discussed.  </vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Hawaii International Conference on System Science</vocab:library_publisher>
+    <vocab:library_published>2014</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Theory_Identity%3A_A_Machine-Learning_Approach">
+    <vocab:article_title rdf:resource="library/1299567891011"/>
+    <vocab:article_descriptionOrabstract>Theory identity is a fundamental problem for researchers seeking to determine theory quality, create theory ontologies and taxonomies, or perform focused theory-specific reviews and meta-analyses. We demonstrate a novel machine-learning approach to theory identification based on citation data and library features. The multi-disciplinary ecosystem of librarys which cite a theory’s originating paper is created and refined into the network of papers predicted to contribute to, and thus identify, a specific theory. We provide a ‘proof-of-concept’ for a highly-cited theory. Implications for cross-disciplinary theory integration and the identification of theories for a rapidly expanding scientific literature are discussed.  </vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Theory Identity: A Machine-Learning Approach</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="vocab/author_author_name">
+    <rdfs:label>author author_name</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1254567891011">
+    <vocab:library_author rdf:resource="author/Jie_Tao%2C_Amit_V._Deokar_And_Omar_F._El-Gayar__"/>
+    <vocab:library_capacity>903 KB</vocab:library_capacity>
+    <vocab:library_type>Eproceeding</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>10</vocab:library_pages>
+    <vocab:library_title>An Ontology-based Information Extraction (OBIE) Framework for Analyzing Initial Public Offering (IPO) Prospectus</vocab:library_title>
+    <rdfs:label>library #1254567891011</rdfs:label>
+    <vocab:library_isbn>1254567891011</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>With the large amounts of information associated with the Initial Public Offering (IPO) process, an intelligent tool is needed for assisting the decision making activities for both the investors and the underwriters. Even though a large body of related studies exists in extant literature, minimum attention has been devoted  to  the aspect of understanding hidden semantics within the informative contents of IPO prospectus. In this paper, we present a framework for processing the textual content of IPO prospectus based on an emerging technique named Ontology Based Information Extraction (OBIE). Preliminary results indicates that the framework is capable of meeting the design requirements  identified. Moreover, &#xD;
+lessons learned during the design and implementation span technical and organizational considerations and can serve as guidance  for  future research and &#xD;
+development in related areas. </vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Hawaii International Conference on System Science</vocab:library_publisher>
+    <vocab:library_published>2014</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="vocab/library_author">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Applied_Semantic_Web_Technologies">
+    <vocab:article_title rdf:resource="library/1234567891066"/>
+    <vocab:article_descriptionOrabstract>The Semantic Web term was popularized by Tim Berners-Lee and later elaborated in &#xD;
+2001. The first part of his vision for the Semantic Web was to turn the Web into a truly collaborative medium—to help people share information and services and make it easier to aggregate data from different sources and different formats. The second part of his vision was to create a Web that would be understandable and processable by machines. While humans can read and comprehend current Web pages, Berners-Lee envisioned new forms of Web pages that could be understood, combined, and analyzed by computers, with the ultimate goal of enabling humans and computers to cooperate in the same manner as humans do among each other. Berners-Lee did not think of the Semantic Web as a replacement of the current Web. It was intended as an extension for adding semantic descriptions of information and services. Central to the Semantic Web vision is the shift from applications to data. The key to machine-processable data is to make the data smarter. As seen from Figure 1.1, data progress along a continuum of increased intelligence as described below.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Applied Semantic Web Technologies</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Learn_Java_For_Web_Development">
+    <vocab:article_title rdf:resource="library/1234567111061"/>
+    <vocab:article_descriptionOrabstract>This book is for a large cross section of modern Java web developers, with various levels of experience. &#xD;
+Learning the Java programming language is a noble cause, but learning merely the Java language is not enough in the real world. Java developers have to learn Java EE, a collection of related server-side technologies, to put their Java skills to any real use. &#xD;
+But learning Java EE is not enough either. The Java language along with Java EE may suffice to develop web applications for projects in the same organization, as a means to reusability, but the diverse landscape of Java on the Web is permeated with several web frameworks, such as Spring Web MVC, that make development much easier; thus, a Java web developer has to have the knowledge of these web frameworks. </vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Learn Java For Web Development</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/9788740308111">
+    <vocab:library_author rdf:resource="author/Pascal_Hitzler%2C_Markus_Krotzsch_and_Sebastian_Rudolph"/>
+    <vocab:library_capacity>4.18 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>456</vocab:library_pages>
+    <vocab:library_title>Foundations of Semantic Web Technologies</vocab:library_title>
+    <rdfs:label>library #9788740308111</rdfs:label>
+    <vocab:library_isbn>9788740308111</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>The goal of this book is to introduce the foundations of Semantic Web technologies to a level of detail and depth which is not found in any other textbook currently available. It is a book written for university courses as well as for self-teaching, and suitable for researchers and practitioners alike.&#xD;
+It is based on ?ve years of experience of the librarys in teaching this subject.&#xD;
+In these ?ve years a lot of things have happened. Semantic Web went from a hyped research subject to one almost pronounced dead to one being invested in by major IT companies. It turns out that it is not only alive and kicking – it is actually growing rapidly, supported by substantial funding from research organizations and industry. IT and venture capital companies are investing. Numerous large-scale applications have been established, and more are being developed.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Chapman &amp; Hall/CRC Taylor &amp; Francis Group</vocab:library_publisher>
+    <vocab:library_published>2010</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1111111111111">
+    <vocab:library_author rdf:resource="author/Eko_Mailansa"/>
+    <vocab:library_capacity>5 MB</vocab:library_capacity>
+    <vocab:library_type>Ejournal</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>Indonesia</vocab:library_language>
+    <vocab:library_pages>50</vocab:library_pages>
+    <vocab:library_title>PENERAPAN WEB SEMANTIK PADA ONTOLOGI PERPUSTAKAAN DIGITAL KARYA ILMIAH</vocab:library_title>
+    <rdfs:label>library #1111111111111</rdfs:label>
+    <vocab:library_isbn>1111111111111</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>Penelitian dalam pengerjaan tesis ini, melakukan sebuah penerapan web 3.0 dengan menggunakan algoritma Latent Semantic Indexing  (LSI) untuk mendapatkan informasi yang lebih relevan dari pencarian yang dilakukan. Penerapan web semantik ini dilakukan dengan mamanfaatkan d2rq-server dalam menghasilkan data RDF, SPARQL yang digunakan sebagai query dalam mengakses data RDF, serta menggunakan java server faces dalam membangun perangkat lunak.&#xD;
+Hasil dari penelitian yang dilakukan berupa informasi web semantik yang dapat membantu pengguna dalam pencarian literatur yang dibutuhkan.&#xD;
+</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Institut Teknologi Bandung</vocab:library_publisher>
+    <vocab:library_published>2018</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Hardik_Dangar">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Hardik Dangar</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Hardik Dangar</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1244567891011">
+    <vocab:library_author rdf:resource="author/Sarfraz_Ul_Haque_Minhas_And_Ulrich_Berger_"/>
+    <vocab:library_capacity>385 KB</vocab:library_capacity>
+    <vocab:library_type>Eproceeding</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>9</vocab:library_pages>
+    <vocab:library_title>A Web-based Smart Inference System to Support Automated Generation of LCA Simulation Models</vocab:library_title>
+    <rdfs:label>library #1244567891011</rdfs:label>
+    <vocab:library_isbn>1244567891011</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>The decision on most eco-efficient production scheme for producing customized products is highly time consuming and error-prone as it depends on several factors most notably the geographical locations, legal requirements, materials characteristics and process related parameters. Furthermore, the planners must be experienced with the simulation tools as well as related terminologies, environmental laws and standards to conduct precise assessments. The limited functionalities of decision making tools as well as non-automated exchange of information and data, absence of environment related knowledge and non-standardized interfaces between the simulation tools and ERP/PLM systems make planners incapable of reaching quick decisions on eco-efficient choices.  &#xD;
+This paper proposes a web-based inference system seamlessly connected with the LCA simulation tools and legacy systems. The web-based software automatically analyzes the input on manufacturing alternatives to produce customized products and generates automatically the corresponding LCA simulation models. These models can be used inside LCA tools. </vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Hawaii International Conference on System Science</vocab:library_publisher>
+    <vocab:library_published>2014</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Dean_Allemang_And_James_Hendler">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Dean Allemang And James Hendler</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Dean Allemang And James Hendler</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1234567891071">
+    <vocab:library_author rdf:resource="author/James_Rumbaugh%2C_Ivar_Jacobson_And_Grady_Booch"/>
+    <vocab:library_capacity>3.85 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>742</vocab:library_pages>
+    <vocab:library_title>The Unified Modeling Language Reference Manual Second Edition</vocab:library_title>
+    <rdfs:label>library #1234567891071</rdfs:label>
+    <vocab:library_isbn>1234567891071</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>This book is intended to be a complete, useful reference to the Unified Modeling Language (UML) for the developer, architect, project manager, system engineer, programmer, analyst, contracting officer, customer, and anyone else who needs to specify, design, build, or understand complex software systems. It provides a full reference to the concepts and constructs of UML, including their semantics, notation, and purpose. It is organized to be a convenient but thorough reference for the working professional developer. It also attempts to provide additional detail about issues that may not be clear from the standards documents and to provide a rationale for many decisions that went into the UML.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>the Object Management  Group (OMG)</vocab:library_publisher>
+    <vocab:library_published>2004</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/The_Semantic_Web%3A_A_Guide_to_the_Future_of_XML%2C_Web_Services%2C_and_Knowledge_Management">
+    <vocab:article_title rdf:resource="library/1234567891211"/>
+    <vocab:article_descriptionOrabstract>The World Wide Web has dramatically changed the availability of electronically accessible information. The Web currently contains around 3 billion static documents, which are accessed by over 500 million users internationally. At the same time, this enormous amount of data has made it increasingly difficult to find, access, present, and maintain relevant information. This is because information content is presented primarily in natural language. Thus, a wide gap has emerged between the information available for tools aimed at addressing these problems and the information maintained in human-readable form.&#xD;
+&#xD;
+In response to this problem, many new research initiatives and commercial enterprises have been set up to enrich available information with machine processable semantics. Such support is essential for "bringing the Web to its full potential." Tim Berners-Lee, Director of the World Wide Web Consortium, referred to the future of the current Web as the Semantic Web-an extended web of machine-readable information and automated services that amplify the Web far beyond current capabilities. The explicit representation of the semantics underlying data, programs, pages, and other Web resources will enable a knowledge based Web that provides a qualitatively new level of service Automated services will improve in their capacity to assist humans in achieving their goals by "understanding" more of the content on the Web, and thus providing more accurate filtering, categorizing, and searching of these information sources. This process will ultimately lead to an extremely knowledgeable system that features various specialized reasoning services. These services will support us in nearly all aspects of our daily life, making access to information as pervasive, and necessary, as access to electricity is today.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #The Semantic Web: A Guide to the Future of XML, Web Services, and Knowledge Management</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="vocab/library_published">
+    <rdfs:label>library published</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/The_Unified_Modeling_Language_Reference_Manual_Second_Edition">
+    <vocab:article_title rdf:resource="library/1234567891071"/>
+    <vocab:article_descriptionOrabstract>This book is intended to be a complete, useful reference to the Unified Modeling Language (UML) for the developer, architect, project manager, system engineer, programmer, analyst, contracting officer, customer, and anyone else who needs to specify, design, build, or understand complex software systems. It provides a full reference to the concepts and constructs of UML, including their semantics, notation, and purpose. It is organized to be a convenient but thorough reference for the working professional developer. It also attempts to provide additional detail about issues that may not be clear from the standards documents and to provide a rationale for many decisions that went into the UML.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #The Unified Modeling Language Reference Manual Second Edition</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="vocab/library_descriptionOrabstract">
+    <rdfs:label>library descriptionOrabstract</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Semantic_Web-Based__Information_Systems%3A_State-of-the-Art_Applications">
+    <vocab:article_title rdf:resource="library/1236667891011"/>
+    <vocab:article_descriptionOrabstract>Importance of semantics has been recognized in different areas of data and information management, including better access, exchange, interoperability, integration and analysis of data. Semantics of data is about associating meaning to data, and understand what data represents, and improve the value of data.  Early use of semantics in the context of data and information management occurred in the context of development of multidatabase or federated database systems, to be followed by mediator and information brokering architectures. As the Web started to take the shape as a global information system and as a way to connect distributed data repositories, usage of metadata and semantics correspondingly started in early 1990s and increased there after. The first use of the term “semantic information brokering” in 1993 conceived the use of semantics in the form of domain models and ontologies for heterogeneous data integration, and about the same time, ontology-based information integration was proposed in some mediator based projects. In the last two chapters of his book Weaving the Web (Harper, 1997), Tim Berners-Lee started to put forth a vision of the next phase of the Web in which semantics would play a critical role, and the term Semantic Web was coined. Research community, first supported by the DARPA’s DAML program (for which Jim Handler was the program manager) quickly saw the new research opportunity. This book contributes to the revolutionary domain of Semantic Web and information systems in four following aspects, namely, vision, methodologies, tools and applications.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Semantic Web-Based  Information Systems: State-of-the-Art Applications</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Reza_Shojanoori%2C_Radmila_Juric%2C_Mahi_Lohi%2C_Gabor_Terstyanszky_">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Reza Shojanoori, Radmila Juric, Mahi Lohi, Gabor Terstyanszky </vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Reza Shojanoori, Radmila Juric, Mahi Lohi, Gabor Terstyanszky </rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1234567891065">
+    <vocab:library_author rdf:resource="author/Sandeep_Kumar"/>
+    <vocab:library_capacity>2.97 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>60</vocab:library_pages>
+    <vocab:library_title>Agent-Based Semantic Web Service Composition</vocab:library_title>
+    <rdfs:label>library #1234567891065</rdfs:label>
+    <vocab:library_isbn>1234567891065</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>The basic aim of the Semantic Web is to create a layer on the existing Web&#xD;
+enabling advanced automatic processing of the web-content that further allows the sharing and processing of data by both humans and software. Semantic Web&#xD;
+Services can be de?ned as the self-suf?cient, reusable software components that&#xD;
+can be used to ful?ll a particular task. In the real-life scenario, the client&#xD;
+requirements cannot be satis?ed using only the single service component. In such&#xD;
+cases, service discovery and selection is used for selecting the most appropriate&#xD;
+service components followed by the service composition for generating the&#xD;
+aggregation of selected service components according to the requested task.&#xD;
+Different types of approaches providing Semantic Web service composition are&#xD;
+available in the literature. In this book, we are mainly concerned with the agent-based Semantic Web service composition. Multiagent-based Semantic Web&#xD;
+service composition is based upon the argument that a multiagent system can be&#xD;
+considered as a service composition system, in which different involved agents&#xD;
+represent the different individual services.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Springer New York Heidelberg Dordrecht London</vocab:library_publisher>
+    <vocab:library_published>2012</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Shah_Khusro_%2C_Irfan_Ullah">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Shah Khusro , Irfan Ullah</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Shah Khusro , Irfan Ullah</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="vocab/article">
+    <rdfs:label>article</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1234567891013">
+    <vocab:library_author rdf:resource="author/Chris_Haseman_"/>
+    <vocab:library_capacity>1.09 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>118</vocab:library_pages>
+    <vocab:library_title>Android Essentials </vocab:library_title>
+    <rdfs:label>library #1234567891013</rdfs:label>
+    <vocab:library_isbn>1234567891013</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>This book covers the essential information required to build an Android application. It will help any developer, amateur, professional, or dabbler who is interested in developing for Android. &#xD;
+Over the course of the book, I cover the essentials you’ll need to get started with your own innovative application. I took on this project because, after five years of working in the mobile software industry, it has become clear that we need help. With mobile devices becoming more ubiquitous, powerful, and, indeed, essential, fresh blood is necessary to overcome the stagnation that has plagued our business. As an industry, we need to graduate from making cookie-cutter ringtones, wallpaper, and e-mail applications. I hope, once you’ve finished this book, that you’ll be in a position to start that killer mobile product you’ve told all your friends you’re going to make.  </vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Apress</vocab:library_publisher>
+    <vocab:library_published>2008</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Eko_Mailansa">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Eko Mailansa</vocab:author_author_name>
+    <vocab:author_email>23514022@std.stei.itb.ac.id, ansa.khitara@gmail.com</vocab:author_email>
+    <rdfs:label>author #Eko Mailansa</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/John_Hebeler%2C_Matthew_Fisher%2C_Ryan_Blace_And_Andrew_Perez-Lopez">
+    <vocab:author_job_description>2009</vocab:author_job_description>
+    <vocab:author_author_name>John Hebeler, Matthew Fisher, Ryan Blace And Andrew Perez-Lopez</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #John Hebeler, Matthew Fisher, Ryan Blace And Andrew Perez-Lopez</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1234567891122">
+    <vocab:library_author rdf:resource="author/Leslie_F._Sikos%2C_Ph.D."/>
+    <vocab:library_capacity>9.23 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>244</vocab:library_pages>
+    <vocab:library_title>Mastering Structured Data On The Semantic Web</vocab:library_title>
+    <rdfs:label>library #1234567891122</rdfs:label>
+    <vocab:library_isbn>1234567891122</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>With the evolution of the World Wide Web, more and more sophisticated web applications and services appear, making it possible not only to publish and search for information but also to share photos and videos, buy products online, chat with friends, book a hotel room, play games, and more. Many of these applications rely on file characteristics, metadata, tracking cookies, and data from user registrations, which makes it possible to provide customized services and to make offers of products or services the users might be interested in. However, because there is a huge gap between what the human mind understands and &#xD;
+what computers can interpret, a large amount of data on the Internet cannot be processed efficiently with computer software. For example, a scanned table in an image file is unstructured and cannot be interpreted by computers. While optical character recognition programs can be used to convert images of printed text into machine-encoded text, such conversions cannot be done in real time and with 100% accuracy, rely on a relatively clear image in high resolution, and require different processing algorithms, depending on the image file format. More important, table headings and table data cells will all become plain text, with no correlation whatsoever. In other words, you lose the relationships between the data cells, including the table columns and rows, making data reusability very limited.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Apress</vocab:library_publisher>
+    <vocab:library_published>2014</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Grigoris_Antoniou_And_Frank_van_Harmelen">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Grigoris Antoniou And Frank van Harmelen</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Grigoris Antoniou And Frank van Harmelen</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Joseph_Cavanagh">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Joseph Cavanagh</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Joseph Cavanagh</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Shohag_Barman%2C_Fahmid_Al_Farid%2C_Nasir_Uddin_And_Hanif_Seddiqui_">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Shohag Barman, Fahmid Al Farid, Nasir Uddin And Hanif Seddiqui </vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Shohag Barman, Fahmid Al Farid, Nasir Uddin And Hanif Seddiqui </rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1232227891011">
+    <vocab:library_author rdf:resource="author/K.K._Breitman%2C_M.A._Casanova_And_W._Truszkowski"/>
+    <vocab:library_capacity>5.79 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>328</vocab:library_pages>
+    <vocab:library_title>Semantic Web: Concepts, Technologies and Applications</vocab:library_title>
+    <rdfs:label>library #1232227891011</rdfs:label>
+    <vocab:library_isbn>1232227891011</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>As the volume of Web resources grows exponentially, researchers from industry, &#xD;
+government, and academia are now exploring the possibility of creating a Semantic &#xD;
+Web in which meaning is made explicit, allowing machines to process and integrate &#xD;
+Web resources intelligently. How will this Web of the future be effectively built? No one really knows. Although guesses vary from library to library, some themes are recurrent, most of which are covered in this book. In general, emerging technologies will allow semantics to be added  to existing Web resources,  so as to make the Semantic Web vision come true.  &#xD;
+This book provides a succinct account of this new Web, its principles, concepts, &#xD;
+and related tools. Its main contribution lies in the ability to demonstrate how Semantic Web technologies may be integrated and realized in several application domains.  </vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Springer-Verlag London Limited</vocab:library_publisher>
+    <vocab:library_published>2007</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Mastering_Structured_Data_On_The_Semantic_Web">
+    <vocab:article_title rdf:resource="library/1234567891122"/>
+    <vocab:article_descriptionOrabstract>With the evolution of the World Wide Web, more and more sophisticated web applications and services appear, making it possible not only to publish and search for information but also to share photos and videos, buy products online, chat with friends, book a hotel room, play games, and more. Many of these applications rely on file characteristics, metadata, tracking cookies, and data from user registrations, which makes it possible to provide customized services and to make offers of products or services the users might be interested in. However, because there is a huge gap between what the human mind understands and &#xD;
+what computers can interpret, a large amount of data on the Internet cannot be processed efficiently with computer software. For example, a scanned table in an image file is unstructured and cannot be interpreted by computers. While optical character recognition programs can be used to convert images of printed text into machine-encoded text, such conversions cannot be done in real time and with 100% accuracy, rely on a relatively clear image in high resolution, and require different processing algorithms, depending on the image file format. More important, table headings and table data cells will all become plain text, with no correlation whatsoever. In other words, you lose the relationships between the data cells, including the table columns and rows, making data reusability very limited.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Mastering Structured Data On The Semantic Web</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Modeling_Semantic_Web_Services">
+    <vocab:article_title rdf:resource="library/1234567891444"/>
+    <vocab:article_descriptionOrabstract>Semantic Web services promise to automate tasks such as discovery, mediation, selection, composition, and invocation of services, enabling fully flexible&#xD;
+automated e-business. The description of Web services plays an important&#xD;
+role in the realization of his vision. The Web Service Modeling Ontology (WSMO) identifies the conceptual elements that are required for such descriptions, thereby providing the means for Web service description from a user point of view. However, the automation of Web service-related tasks requires a suitable concrete formal language. The formal description of Web services, as well as user goals, has three major aspects: static background knowledge in the form of ontologies, the functional description of the service (suitable for discovery and high-level composition), and the behavioral description of the service (suitable for selection, mediation, composition, and invocation). In this book we present a language framework addressing all three aspects. To address the problem of ontology description we present a language framework incorporating the Description Logic and Logic Programming formal language paradigms and the RDF Schema and OWL SemanticWeb ontology languages.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Modeling Semantic Web Services</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Introduction_to_IT_Architectures_and_Applications_in_Healthcare_Environments_Minitrack">
+    <vocab:article_title rdf:resource="library/1294567891011"/>
+    <vocab:article_descriptionOrabstract>This year the “IT Architectures and Applications in Healthcare Environments” minitrack has accepted a total of eleven papers, which are diverse and very &#xD;
+indicative of technological impact on modern healthcare software applications. &#xD;
+The paper “A Business Process Management Approach to Perioperatve Supplies/Instrument Inventory and Workflow” is based on a 10 year longitudinal study of a large teaching US hospital, which identifies quality and quantity business analytics used to improve perioperative efficiency and effectiveness across patient quality of care.  &#xD;
+Another study, conducted in Austria, and presented in the paper entitled “Factors of Access Control Management in Electronic Healthcare: The Patients’ &#xD;
+Perspectives” has revealed that patients have varying conceptions regarding privacy and the librarys advocate the integration of access control factors to &#xD;
+satisfy individual information requirements. The paper on “Decision Support in Evaluating the Impact of Mental Disorders on Work Ability” is from Finland and illustrates a systematic process workflow and clinical decision support system, implemented in South Karelia district, which standardized the work ability evaluation process in the field of mental health. </vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Introduction to IT Architectures and Applications in Healthcare Environments Minitrack</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/ONTOLOGY_AND_THE_SEMANTIC_WEB_">
+    <vocab:article_title rdf:resource="library/1234567891561"/>
+    <vocab:article_descriptionOrabstract>Nearly every business or organization is supported by an information system.&#xD;
+Companies in the finance, insurance and real estate industry group are very little more than information systems. Mines and farms use information systems to keep track of production and assets. Manufacturers, wholesalers and retailers use information systems to manage their production, sales and employees. Construction firms use information systems to bid for and manage projects. Transportation firms use them to schedule services. The health sector is served by thousands of systems assisting in the operation of various departments in hospitals, doctors’ surgeries, and the flow of payments through the system. Universities use information systems to keep track of students, courses, libraries and staff. Governments use them to record births, deaths and marriages, and in the provision of all sorts of services.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #ONTOLOGY AND THE SEMANTIC WEB </rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Foundations_of_Semantic_Web_Technologies">
+    <vocab:article_title rdf:resource="library/9788740308111"/>
+    <vocab:article_descriptionOrabstract>The goal of this book is to introduce the foundations of Semantic Web technologies to a level of detail and depth which is not found in any other textbook currently available. It is a book written for university courses as well as for self-teaching, and suitable for researchers and practitioners alike.&#xD;
+It is based on ?ve years of experience of the librarys in teaching this subject.&#xD;
+In these ?ve years a lot of things have happened. Semantic Web went from a hyped research subject to one almost pronounced dead to one being invested in by major IT companies. It turns out that it is not only alive and kicking – it is actually growing rapidly, supported by substantial funding from research organizations and industry. IT and venture capital companies are investing. Numerous large-scale applications have been established, and more are being developed.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Foundations of Semantic Web Technologies</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Automating_the_Integration_of_Clinical_Studies_into_Medical_Ontologies">
+    <vocab:article_title rdf:resource="library/1274567891011"/>
+    <vocab:article_descriptionOrabstract>A popular approach to knowledge extraction from clinical databases is to first define an ontology of the concepts one wishes to model and subsequently, use &#xD;
+these concepts to test various hypotheses and make predictions about a person’s future health and wellbeing. The challenge for medical experts is in the &#xD;
+time taken to map between their concepts/hypotheses and information contained within clinical studies. Presently, most of this work is performed manually. We &#xD;
+have developed a method to generate links between Risk Factors in a medical ontology and the questions and result data in longitudinal studies. This can then &#xD;
+be exploited to express complex queries based on domain concepts, to extract knowledge from external studies. </vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Automating the Integration of Clinical Studies into Medical Ontologies</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1234567891066">
+    <vocab:library_author rdf:resource="author/Vijayan_Sugumaran_And_Jon_Atle_Gulla"/>
+    <vocab:library_capacity>5.92 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>470</vocab:library_pages>
+    <vocab:library_title>Applied Semantic Web Technologies</vocab:library_title>
+    <rdfs:label>library #1234567891066</rdfs:label>
+    <vocab:library_isbn>1234567891066</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>The Semantic Web term was popularized by Tim Berners-Lee and later elaborated in &#xD;
+2001. The first part of his vision for the Semantic Web was to turn the Web into a truly collaborative medium—to help people share information and services and make it easier to aggregate data from different sources and different formats. The second part of his vision was to create a Web that would be understandable and processable by machines. While humans can read and comprehend current Web pages, Berners-Lee envisioned new forms of Web pages that could be understood, combined, and analyzed by computers, with the ultimate goal of enabling humans and computers to cooperate in the same manner as humans do among each other. Berners-Lee did not think of the Semantic Web as a replacement of the current Web. It was intended as an extension for adding semantic descriptions of information and services. Central to the Semantic Web vision is the shift from applications to data. The key to machine-processable data is to make the data smarter. As seen from Figure 1.1, data progress along a continuum of increased intelligence as described below.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>CRC Press Taylor &amp; Francis Group</vocab:library_publisher>
+    <vocab:library_published>2012</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/978467399395">
+    <vocab:library_author rdf:resource="author/Dibya_Raj_Ghosh_And_Poovammal_E__"/>
+    <vocab:library_capacity>347 KB</vocab:library_capacity>
+    <vocab:library_type>Eproceeding</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>5</vocab:library_pages>
+    <vocab:library_title>Ontology Based Semantic Web on Hadoop Platform</vocab:library_title>
+    <rdfs:label>library #978467399395</rdfs:label>
+    <vocab:library_isbn>978467399395</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>In recent times size of the data is increasing rapidly. Existing centralized system is not able to handle large dataset beyond a certain limit. So, we need ontology based approach in Semantic Web and distributed system. Ontology &#xD;
+describes a formal specification of certain domain. Existing platform and servers are unable to process different types of data like structured, semi-structured and quasi- structured data to have an effective large number of ontologies in the web. We need the Hadoop platform to implement the incremental and distributed ontologies over and  above existing ontologies in Semantic Web. RDF is the basic representation of ontologies and it is used to describe the knowledge in the Semantic Web. The challenges is using RDF include structure of RDF and the memory that is needed for the incremental comparison. &#xD;
+MapReduce is one of the main Hadoop components are needed during the mapping of ontologies in the Semantic Web using RDF. In this paper better way of using incremental RDF in Semantic Web is discussed. </vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>IEEE - International Conference on Electrical, Electronics, and Optimization Techniques (ICEEOT)</vocab:library_publisher>
+    <vocab:library_published>2016</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Jie_Tao%2C_Amit_V._Deokar_And_Omar_F._El-Gayar__">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Jie Tao, Amit V. Deokar And Omar F. El-Gayar  </vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Jie Tao, Amit V. Deokar And Omar F. El-Gayar  </rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="vocab/library_language">
+    <rdfs:label>library language</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Fundamentals_of_Computer_Science_Using_Java">
+    <vocab:article_title rdf:resource="library/1234567891051"/>
+    <vocab:article_descriptionOrabstract>In the summer of 1996, our Computer Science department made the decision to use&#xD;
+Java as the core language for our Computer Science program, beginning that fall.&#xD;
+Although there were many Java books available, we soon discovered that most were&#xD;
+“trade” or “hobby” books, not designed for university courses and certainly not intended to serve as introductions to Computer Science. It became clear to us that someone needed to write a “Fundamentals of Computer Science Using Java” book, and I thought, “why not me?” And now, after years of researching, testing, and writing, I can provide the book that we searched for years ago: a truly Java-based introduction to Computer Science.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Fundamentals of Computer Science Using Java</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1235557891011">
+    <vocab:library_author rdf:resource="author/M._Brian_Blake%2C_Liliana_Cabral%2C_Birgitta_Konig-Ries%2C_Ulrich_Kuster%2C_David_Martin"/>
+    <vocab:library_capacity>5.18 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>357</vocab:library_pages>
+    <vocab:library_title>Semantic Web Services - Advancement through Evaluation</vocab:library_title>
+    <rdfs:label>library #1235557891011</rdfs:label>
+    <vocab:library_isbn>1235557891011</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>This book compiles the perspectives, approaches and results of the research associated with three current Semantic Web Service (SWS) evaluation initiatives, namely the Semantic Service Selection (S3) contest, the Semantic Web Service Challenge (SWS Challenge) and the Web Service Challenge (WS Challenge).&#xD;
+The book will contain an overall overview and comparison of these initiatives as well as chapters contributed by librarys that have taken part in one or more of these initiatives.&#xD;
+In addition, the participants are given the opportunity to focus on a comparative analysis of the features and performance of their tools with respect to other contest entries.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Springer-Verlag Berlin Heidelberg</vocab:library_publisher>
+    <vocab:library_published>2012</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1284567891011">
+    <vocab:library_author rdf:resource="author/Arash_Saghafi_And_Yair_Wand"/>
+    <vocab:library_capacity>300 KB</vocab:library_capacity>
+    <vocab:library_type>Eproceeding</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>10</vocab:library_pages>
+    <vocab:library_title>Do Ontological Guidelines Improve Understandability of Conceptual Models? A Meta-Analysis of Empirical Work</vocab:library_title>
+    <rdfs:label>library #1284567891011</rdfs:label>
+    <vocab:library_isbn>1284567891011</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>Conceptual models are used to understand information systems application domains and to communicate about them in order to better understand system requirements.  Conceptual models are required to represent relevant aspects of the modeled domain faithfully, and be understandable. The use of ontological theories has been proposed to guide the creation of effective models. Specifically, Bunge’s &#xD;
+ontology has been applied to guide the use of the ERM, the UML, and business process grammars.  However, because the choice of ontology reflects beliefs, and &#xD;
+model understanding involves human cognition, whether or not ontological guidance results in better models is an empirical question. Several empirical &#xD;
+works studied this issue, differing in grammars, modeling aspects, empirical tasks, and measures. We report a meta-analysis of published empirical research &#xD;
+about the impact of ontological guidance based on Bunge’s model, and user understanding of conceptual models. The results support the proposition that &#xD;
+ontological guidance can improve model understandability.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Hawaii International Conference on System Science</vocab:library_publisher>
+    <vocab:library_published>2014</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="vocab/library_isbn">
+    <rdfs:label>library isbn</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1234567891042">
+    <vocab:library_author rdf:resource="author/Toby_Segaran%2C_Colin_Evans_And_Jamie_Taylor"/>
+    <vocab:library_capacity>4.88 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>300</vocab:library_pages>
+    <vocab:library_title>Programming the Semantic Web</vocab:library_title>
+    <rdfs:label>library #1234567891042</rdfs:label>
+    <vocab:library_isbn>1234567891042</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>Like biological organisms, computers operate in complex, interconnected environ-&#xD;
+ments where each element of the system constrains the behavior of many others. Similar to predator-prey relationships, applications and the data they consume tend to follow co-evolutionary paths. Cumulative changes in an application eventually require modification to the data structures on which it operates. Conversely, when enhancements to a data source emerge, the structures for expressing the additional information generally force applications to change. Unfortunately, because of the significant efforts involved, this type of lock-step evolution tends to dampen enhancements in both applications and data sources.&#xD;
+At their core, semantic technologies decouple applications from data through the use of a simple, abstract model for knowledge representation. This model releases the mutual constraints on applications and data, allowing both to evolve independently. And by design, this degree of application-data independence promotes data portability. Any application that understands the model can consume any data source using the model.&#xD;
+It is this level of data portability that underlies the notion of a machine-readable semantic web.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>O’Reilly Media, Inc.</vocab:library_publisher>
+    <vocab:library_published>2009</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Introduction_to_the_Semantic_Web_and_Semantic_Web_Services">
+    <vocab:article_title rdf:resource="library/1234567891541"/>
+    <vocab:article_descriptionOrabstract>The basic idea of the Semantic Web is to extend the current Web by adding semantics into Web documents. The added semantics is expressed as structured information that can be read and understood by machines. Once this is occomplished, each Web page will contain not only information to instruct machines about how to display it, but also structured data to help machines to understand it.&#xD;
+This exciting vision opens up the possibilities for many new applications on the&#xD;
+Web, especially those based on automatic soft agents. There have been many encouraging results in both the academic and application worlds during the past several years, and a whole suite of components, standards, and tools have been built and developed around the concept of the Semantic Web.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Introduction to the Semantic Web and Semantic Web Services</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="vocab/author_job_description">
+    <rdfs:label>author job_description</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1238887891011">
+    <vocab:library_author rdf:resource="author/Eric_Sarrion"/>
+    <vocab:library_capacity>9.48 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>242</vocab:library_pages>
+    <vocab:library_title>jQuery UI</vocab:library_title>
+    <rdfs:label>library #1238887891011</rdfs:label>
+    <vocab:library_isbn>1238887891011</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>jQuery is a popular JavaScript library that is extensible using plug-ins. Some plug-ins, specifically those for managing the user interface, have been collected together in the jQuery UI library. These plug-ins help facilitate interaction with the user, and these interactions are simpler to manage if you use jQuery only.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>O’Reilly Media, Inc.</vocab:library_publisher>
+    <vocab:library_published>2012</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/A_survey_of_RDF_store_solutions_">
+    <vocab:article_title rdf:resource="library/1232427891011"/>
+    <vocab:article_descriptionOrabstract>This paper analyzes the potential of Semantic Web technologies to support innovation in industrial scenarios. The study focuses in particular on RDF stores, the software components dedicated to the storage, representation and retrieval of semantic information. Starting from a literature review, a qualitative analysis is carried out considering a set of these systems. RDF stores are evaluated to find the implementations that are best suited to play the role of backbone in a software architecture sharing information between the software tools adopted by the various stakeholders. This can be achieved if the architecture overcomes the problems deriving from the lack of integration between the involved software applications, providing in this way an integrated view on relevant engineering knowledge.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #A survey of RDF store solutions </rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1231917891011">
+    <vocab:library_author rdf:resource="author/Hardik_Dangar"/>
+    <vocab:library_capacity>3.50 MB</vocab:library_capacity>
+    <vocab:library_type>Ebook</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>256</vocab:library_pages>
+    <vocab:library_title>Learning Laravel 4 Application Development</vocab:library_title>
+    <rdfs:label>library #1231917891011</rdfs:label>
+    <vocab:library_isbn>1231917891011</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>This book is about Laravel 4 and its features, and how to use them in real-world projects.&#xD;
+This book will walk you through every single step you need to learn as a beginner  &#xD;
+to develop Laravel applications with project examples for each. I have used a real-world project that I have developed in Laravel 4 for one of my clients as  &#xD;
+a sample project to help you go through each process of project development  &#xD;
+in Laravel 4.&#xD;
+This book covers most of the things you should know when you are developing a &#xD;
+project in Laravel 4.</vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Packt Publishing Ltd.</vocab:library_publisher>
+    <vocab:library_published>2013</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="library/1274567891011">
+    <vocab:library_author rdf:resource="author/Mark_Roantree%2C_Jim_O%E2%80%99_Donoghue%2C_Noel_O%E2%80%99Kelly_And_Martin_van_Boxtel%2C_Sebastian_K%C3%B6hler"/>
+    <vocab:library_capacity>488 KB</vocab:library_capacity>
+    <vocab:library_type>Eproceeding</vocab:library_type>
+    <vocab:library_format>PDF</vocab:library_format>
+    <vocab:library_language>English</vocab:library_language>
+    <vocab:library_pages>10</vocab:library_pages>
+    <vocab:library_title>Automating the Integration of Clinical Studies into Medical Ontologies</vocab:library_title>
+    <rdfs:label>library #1274567891011</rdfs:label>
+    <vocab:library_isbn>1274567891011</vocab:library_isbn>
+    <vocab:library_descriptionOrabstract>A popular approach to knowledge extraction from clinical databases is to first define an ontology of the concepts one wishes to model and subsequently, use &#xD;
+these concepts to test various hypotheses and make predictions about a person’s future health and wellbeing. The challenge for medical experts is in the &#xD;
+time taken to map between their concepts/hypotheses and information contained within clinical studies. Presently, most of this work is performed manually. We &#xD;
+have developed a method to generate links between Risk Factors in a medical ontology and the questions and result data in longitudinal studies. This can then &#xD;
+be exploited to express complex queries based on domain concepts, to extract knowledge from external studies. </vocab:library_descriptionOrabstract>
+    <vocab:library_publisher>Hawaii International Conference on System Science</vocab:library_publisher>
+    <vocab:library_published>2014</vocab:library_published>
+    <rdf:type rdf:resource="vocab/library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="vocab/library_capacity">
+    <rdfs:label>library capacity</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Dhana_Nandini">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Dhana Nandini</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Dhana Nandini</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="article/Learning_Laravel_4_Application_Development">
+    <vocab:article_title rdf:resource="library/1231917891011"/>
+    <vocab:article_descriptionOrabstract>This book is about Laravel 4 and its features, and how to use them in real-world projects.&#xD;
+This book will walk you through every single step you need to learn as a beginner  &#xD;
+to develop Laravel applications with project examples for each. I have used a real-world project that I have developed in Laravel 4 for one of my clients as  &#xD;
+a sample project to help you go through each process of project development  &#xD;
+in Laravel 4.&#xD;
+This book covers most of the things you should know when you are developing a &#xD;
+project in Laravel 4.</vocab:article_descriptionOrabstract>
+    <rdfs:label>article #Learning Laravel 4 Application Development</rdfs:label>
+    <rdf:type rdf:resource="vocab/article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/Liyang_Yu">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>Liyang Yu</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #Liyang Yu</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="author/jQuery_Community_Experts">
+    <vocab:author_job_description>Student</vocab:author_job_description>
+    <vocab:author_author_name>jQuery Community Experts</vocab:author_author_name>
+    <vocab:author_email>English@gmail.com</vocab:author_email>
+    <rdfs:label>author #jQuery Community Experts</rdfs:label>
+    <rdf:type rdf:resource="vocab/author"/>
+  </rdf:Description>
+</rdf:RDF>

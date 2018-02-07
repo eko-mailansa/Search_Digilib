@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:h="http://java.sun.com/jsf/html" 
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <h:head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" http-equiv="X-UA-Conpatible" />
+        <h:outputStylesheet library="css" name="bootstrap.min.css" />     
+        <h:outputStylesheet library="css" name="css_spasi.css" />
+        <title>TERM</title>
+        <style type="text/css">
+            .tableUpdated {
+                width: 100% !important;
+                margin: 0 0 0 !important;
+            }
+            .btnSpace {
+                margin: 0px;
+            }     
+        </style>
+    </h:head>
+
+    <h:body>
+        <center>
+            <h:link outcome="/index" value="Back To Home"/>        
+            <br/><br/>            
+            <h2><b>:: TERM ::</b></h2>
+            <p:separator/><br/>
+
+            <h:form id="termForm" style="align-content:center; width: 810px">
+
+                <p:dataTable id="termTable" binding="#{table}" value="#{lsiTermBean.termList()}" var="term" paginator="true" rows="5"
+                             paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+                             rowsPerPageTemplate="10,20,30,40,50" widgetVar="500" style="width: 800px; font-size:12px" >
+
+
+                    <p:column style="width:5%">
+                        <center>
+                            <f:facet name="header"><center>ID</center></f:facet>
+                            <h:outputText value="#{table.rowIndex + 1}" />
+                        </center>
+                    </p:column>
+                    <p:column style="width:50%">
+                        <f:facet name="header"><center>TERM</center></f:facet>
+                        <h:outputText value="#{term.term}" />
+                    </p:column>
+
+                </p:dataTable>
+                <br/>
+                <br/>
+            </h:form>
+        </center>
+        <br/>
+    </h:body>
+</html>

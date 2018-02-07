@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+    <h:head>        
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" http-equiv="X-UA-Conpatible" />
+<!--        <h:outputStylesheet library="css" name="bootstrap.min.css" />     
+        <h:outputStylesheet library="css" name="css_spasi.css" />-->
+        <title>Search</title>
+<!--        <style type="text/css">
+            .tableUpdated {
+                width: 100% !important;
+                margin: 0 0 0 !important;
+            }
+            .btnSpace {
+                margin: 0px;
+            }     
+        </style>-->
+
+    </h:head>
+    <h:body>
+
+        <center>
+            <br/>
+            <h:link outcome="/index" value="Back To Home"/>        
+            <br/><br/>
+
+            <h:form>
+            <p:panel header="Advanced">
+                <h:panelGrid columns="8" border="1" style="width: 800px">
+                    <h:outputLabel value="Title:" for="title"/>
+                    <p:selectOneMenu id="title" value="#{dataBean.selectedState}"
+                                     valueChangeListener="#{dataBean.stateChangeListener}" style="width: 150px;">
+                        <f:selectItem itemLabel="" itemValue=""/>
+                        <f:selectItems value="#{dataBean.title}"/>
+                        <p:ajax event="change" update="author, cs"/>
+                    </p:selectOneMenu>
+                    <h:outputLabel value="Author:" for="author"/>
+                    <p:selectOneMenu id="author" value="#{dataBean.selectedCity}" style="width: 150px;">
+                        <f:selectItem itemLabel="" itemValue=""/>
+                        <f:selectItems value="#{dataBean.author}"/>
+                        <p:ajax event="change" update="cs" />
+                    </p:selectOneMenu>
+                    <h:outputLabel value="ISBN:" for="isbn"/>
+                    <p:selectOneMenu id="isbn" value="#{dataBean.selectedCity}" style="width: 150px;">
+                        <f:selectItem itemLabel="" itemValue=""/>
+                        <f:selectItems value="#{dataBean.author}"/>
+                        <p:ajax event="change" update="cs" />
+                    </p:selectOneMenu>
+                </h:panelGrid>
+                <p>
+                    <h:outputText id="cs" value="#{dataBean.selectedCity} #{dataBean.selectedCity ne null ? ',': '' } #{dataBean.selectedState}"/>
+                </p>
+            </p:panel>
+        </h:form>
+            
+            <!--<h:commandButton value="Submit" action="/Home_SearchArticle_Simple" />-->
+
+        </center>
+    </h:body>
+</html>
+

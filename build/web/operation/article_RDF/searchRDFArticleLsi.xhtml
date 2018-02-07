@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>        
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" http-equiv="X-UA-Conpatible" />
+        <h:outputStylesheet library="css" name="bootstrap.min.css" />     
+        <h:outputStylesheet library="css" name="css_spasi.css" />
+        <title>Search</title>
+        <style type="text/css">
+            .tableUpdated {
+                width: 100% !important;
+                margin: 0 0 0 !important;
+            }
+            .btnSpace {
+                margin: 0px;
+            }     
+        </style>
+
+    </h:head>
+    <h:body>
+
+        <br/>&nbsp;     
+<!--        <h:link outcome="/Home_Search_Advanced" value="Go To Advanced_Search"/>
+        <br/><br/>-->
+        <h:link outcome="/index" value="Back To Home"/>        
+        <br/><br/>
+        <center>
+            <b><font size="5">:: Welcome To LSI Search In Digital Library ::</font></b>
+            <br/><br/><p:separator/><br/><br/>
+            <f:view>
+                <h:form>
+                    <p:inputText type="text" style="width:1000px; height:35px; font-family:serif" value="#{lsiSearchManagedBean.search}" placeholder="Search Tittle..." validatorMessage="Title is required"><f:validateRequired/></p:inputText>
+                    <br/><br/>
+                    <h:commandButton value="Search" action="/Home_SearchArticle_Lsi_Result" ></h:commandButton>
+                </h:form>
+            </f:view>
+            <br/><br/><br/>
+        </center>  
+
+    </h:body>
+</html>
+
